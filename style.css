@@ -1,0 +1,80 @@
+
+/* use these fonts 
+Font-Family: 'Roboto Condensed', Sans-Serif;
+Font-Size: 35px;
+Font-Family: 'Cabin', Sans-Serif;
+Font-Size: 16px;
+*/
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body{
+    Font-Family: 'Roboto Condensed', Sans-Serif;
+    Font-Size: 25px;
+    color: #3a3a3a;
+}
+/*doesn't seem to change color in tab*/
+.favicon {
+    color:darkgreen;
+}
+
+
+h1, h2{
+    font-family: 'Roboto Condensed', Sans-Serif;
+    letter-spacing: 4px;
+    color: #252525;
+    line-height: 75px;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
+/* navigation links */
+
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+   
+}
+
+#logo, #menu{
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover{
+    border-bottom: 1px solid #3a3a3a;
+}
+
+#landing-outer{
+    height:600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#landing-image{
+    height:600px;
+    width: 100%;
+    background:url("images/pexels-miguel-á-padriñán-806427.jpg") no-repeat center center;
+    margin-top: 20px;
+}
+
+

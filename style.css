@@ -14,26 +14,42 @@ Font-Size: 16px;
 
 body{
     Font-Family: 'Roboto Condensed', Sans-Serif;
-    Font-Size: 25px;
+    Font-Size: 25px;  
     color: #3a3a3a;
+    background-color: #8DB99D;
+    
+
 }
 /*doesn't seem to change color in tab*/
 .favicon {
     color:darkgreen;
 }
 
-
+/*used coloors.co to get color palette to make site more appealing to user*/
 h1, h2{
     font-family: 'Roboto Condensed', Sans-Serif;
     letter-spacing: 4px;
-    color: #252525;
-    line-height: 75px;
+    color: #493548;
+    line-height: 50px;
+    font-style: oblique 45deg;
+}
+
+#logo, #logo3 {
+    vertical-align: auto;
+
 }
 
 #logo {
     float: left;
     font-size: 280%;
     margin-left: 30px;
+    margin-top: 20px;
+    color:#493548;
+}
+
+#logo3 {
+    float: left;
+    font-size: 30%;
 }
 
 /* navigation links */
@@ -41,11 +57,12 @@ h1, h2{
 #menu{
     font-size: 110%;
     letter-spacing: 4px;
+    padding-top: 40px;
    
 }
 
 #logo, #menu{
-    line-height: 75px;
+    
 }
 
 #menu li {
@@ -64,17 +81,90 @@ h1, h2{
 }
 
 #landing-outer{
-    height:600px;
+    height:900px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #landing-image{
-    height:600px;
+    height:850px;
     width: 100%;
-    background:url("images/pexels-miguel-á-padriñán-806427.jpg") no-repeat center center;
+    background:url("images/adam-niescioruk-hWzrJsS8gwI-unsplash.jpg") no-repeat center center;
     margin-top: 20px;
 }
+
+#cover-text, #cover-text h2 {
+    color: #ffffff;
+    text-size-adjust: 150%;
+    text-align: center;
+}
+
+#left-about {
+
+    font-size: 130%;
+    Font-Family: Cabin;
+    letter-spacing: 4px;
+
+    width: 20%;
+    height: 350px;
+    
+    padding-top: 20px;
+    padding-left: 10px;
+
+    background-color: rgba(40, 167, 78, 0.3);
+
+    top: 250px;
+    left: 150px;
+
+    float: left;
+    position: absolute;
+
+}
+
+#right-about {
+
+    font-size: 130%;
+    Font-Family: Cabin;
+    letter-spacing: 4px;
+    width: 20%;
+    height: 350px;
+    padding-top: 20px;
+    padding-left: 10px;
+    background-color: rgba(40, 167, 78, 0.3);
+    top: 250px;
+    right: 200px;
+    float: right;
+    position: absolute;
+
+}
+
+#center-about {
+
+    font-size: 130%;
+    Font-Family: Cabin;
+    letter-spacing: 4px;
+    width: 20%;
+    height: 350px;
+    padding-top: 20px;
+    padding-left: 10px;
+    background-color: rgba(40, 167, 78, 0.3);
+    top: 250px;
+    left: 725px;
+    margin: auto;
+    
+    position: absolute;
+  
+
+}
+
+.container {
+    display: inline-block;
+}
+
+
+
+
+
 
 

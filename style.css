@@ -17,7 +17,6 @@ body{
     Font-Size: 25px;  
     color: #3a3a3a;
     background-color: #8DB99D;
-    
 
 }
 /*doesn't seem to change color in tab*/
@@ -50,14 +49,16 @@ h1, h2{
 #logo3 {
     float: left;
     font-size: 30%;
+    padding-bottom: 20px;
 }
 
 /* navigation links */
 
-#menu{
+#menu {
     font-size: 110%;
     letter-spacing: 4px;
     padding-top: 40px;
+    padding-bottom: 60px;
    
 }
 
@@ -80,12 +81,7 @@ h1, h2{
     border-bottom: 1px solid #3a3a3a;
 }
 
-#landing-outer{
-    height:900px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
+
 
 #landing-image{
     height:850px;
@@ -105,19 +101,18 @@ h1, h2{
     font-size: 130%;
     Font-Family: Cabin;
     letter-spacing: 4px;
-
+   
     width: 20%;
     height: 350px;
     
     padding-top: 20px;
     padding-left: 10px;
-
+   
     background-color: rgba(40, 167, 78, 0.3);
-
+    
     top: 250px;
     left: 150px;
 
-    float: left;
     position: absolute;
 
 }
@@ -134,7 +129,7 @@ h1, h2{
     background-color: rgba(40, 167, 78, 0.3);
     top: 250px;
     right: 200px;
-    float: right;
+   
     position: absolute;
 
 }
@@ -152,16 +147,54 @@ h1, h2{
     top: 250px;
     left: 725px;
     margin: auto;
-    
+
     position: absolute;
   
 
 }
 
-.container {
-    display: inline-block;
+#about {
+    height: 300px;
+    width: 80%;
 }
 
+#lhsp {
+
+    width: 33%;
+    height: 80%;
+    float: left;
+    text-align: right;
+    padding-left: 75px;
+
+}
+
+#rhsp {
+
+    width: 33%;
+    height: 80%;
+    float: right;
+    text-align: left;
+    padding-right: 75px;
+}
+
+#abouth2 {
+    margin: 0 auto;
+    width: 33%;
+    height: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#logo-center {
+
+  
+    margin: 20px 0;
+    text-align: center;
+    font-size: 280%;
+   
+    
+}
 
 
 

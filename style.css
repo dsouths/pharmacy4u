@@ -29,7 +29,7 @@ body {
 }
 
 /*used coloors.co to get color palette to make site more appealing to user*/
-h1, h3{
+h1 {
     font-family: 'Roboto Condensed', Sans-Serif;
     letter-spacing: 4px;
     color: #8DB99D;
@@ -39,11 +39,19 @@ h1, h3{
     
 }
 
+h3 {
+    background-color: #8DB99D;
+    
+    padding: 5px 30px 5px;
+    
+    color:#493548;
+}
+
 
 
 #logo {
     float: left;
-    font-size: 180%;
+    font-size: 280%;
     margin-left: 30px;
     margin-top: 20px;
     color:#8DB99D;
@@ -58,6 +66,9 @@ h1, h3{
 /* navigation links */
 
 #menu {
+    
+    font-family: 'Cabin', Sans-Serif;
+    color:#8DB99D;
     font-size: 90%;
     letter-spacing: 3px;
     padding-top: 40px;
@@ -79,7 +90,7 @@ h1, h3{
 }
 
 #menu a:hover{
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #8DB99D;
 }
 
 
@@ -99,18 +110,21 @@ h1, h3{
 
 
 
-
-
 #aboutus {
 
+    font-family: 'Cabin', Sans-Serif;
     padding-top: 30px;
     padding-bottom: 20px;
 }
+
+#blurb {
+    font-family: 'Cabin', Sans-Serif;
+}
+
 .opening-hours {
     color: #ffffff;
     bottom: 0;
  
-    
 }
 
 .opening-hours ul {
@@ -120,7 +134,7 @@ h1, h3{
 }
 
 footer { 
-    height: 100px;
+    height: 30px;
     background-color: #8DB99D;
 }
 
@@ -147,6 +161,8 @@ footer {
     color: white;
     text-align: center;
   }
+
+  
 
   .days {
     color:#8DB99D;

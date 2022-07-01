@@ -12,11 +12,15 @@ Font-Size: 16px;
     border:0;
 }
 
-body{
+header {
+    background-color: #8DB99D;
+}
+
+body {
     Font-Family: 'Roboto Condensed', Sans-Serif;
     Font-Size: 25px;  
     color: #3a3a3a;
-    background-color: #8DB99D;
+    
 
 }
 /*doesn't seem to change color in tab*/
@@ -25,18 +29,17 @@ body{
 }
 
 /*used coloors.co to get color palette to make site more appealing to user*/
-h1, h2{
+h1, h3{
     font-family: 'Roboto Condensed', Sans-Serif;
     letter-spacing: 4px;
     color: #493548;
     line-height: 50px;
     font-style: oblique 45deg;
+    position: absolute;
+    
 }
 
-#logo, #logo3 {
-    vertical-align: auto;
 
-}
 
 #logo {
     float: left;
@@ -48,8 +51,8 @@ h1, h2{
 
 #logo3 {
     float: left;
-    font-size: 30%;
-    padding-bottom: 20px;
+    font-size: 35%;
+    
 }
 
 /* navigation links */
@@ -85,7 +88,7 @@ h1, h2{
     height:850px;
     width: 100%;
     background:url("images/adam-niescioruk-hWzrJsS8gwI-unsplash.jpg") no-repeat center center;
-    margin-top: 20px;
+    
 }
 
 #cover-text, #cover-text h2 {
@@ -221,6 +224,7 @@ h1, h2{
 }
 
 #opening-hours ul {
+    
     list-style-type: none;
 }
 

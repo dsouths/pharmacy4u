@@ -23,10 +23,7 @@ body {
     
 
 }
-/*doesn't seem to change color in tab*/
-.favicon {
-    color:darkgreen;
-}
+
 
 /*used coloors.co to get color palette to make site more appealing to user*/
 h1 {
@@ -34,16 +31,13 @@ h1 {
     letter-spacing: 4px;
     color: #8DB99D;
     line-height: 50px;
-    font-style: bold;
     position: absolute;
     
 }
 
 h3 {
     background-color: #8DB99D;
-    
     padding: 5px 30px 5px;
-    
     color:#493548;
 }
 

@@ -13,7 +13,7 @@ Font-Size: 16px;
 }
 
 header {
-    background-color: #8DB99D;
+    background-color: #493548;
 }
 
 body {
@@ -32,9 +32,9 @@ body {
 h1, h3{
     font-family: 'Roboto Condensed', Sans-Serif;
     letter-spacing: 4px;
-    color: #493548;
+    color: #8DB99D;
     line-height: 50px;
-    font-style: oblique 45deg;
+    font-style: bold;
     position: absolute;
     
 }
@@ -46,7 +46,7 @@ h1, h3{
     font-size: 180%;
     margin-left: 30px;
     margin-top: 20px;
-    color:#493548;
+    color:#8DB99D;
 }
 
 #logo3 {
@@ -97,139 +97,31 @@ h1, h3{
     text-align: center;
 }
 
-#left-about {
 
-    font-size: 130%;
-    Font-Family: Cabin;
-    letter-spacing: 4px;
-   
-    width: 20%;
-    height: 350px;
-    
-    padding-top: 20px;
-    padding-left: 10px;
-   
-    background-color: rgba(40, 167, 78, 0.3);
-    
-    top: 250px;
-    left: 150px;
 
-    position: absolute;
 
-}
-
-#right-about {
-
-    font-size: 130%;
-    Font-Family: Cabin;
-    letter-spacing: 4px;
-    width: 20%;
-    height: 350px;
-    padding-top: 20px;
-    padding-left: 10px;
-    background-color: rgba(40, 167, 78, 0.3);
-    top: 250px;
-    right: 200px;
-   
-    position: absolute;
-
-}
-
-#center-about {
-
-    font-size: 130%;
-    Font-Family: Cabin;
-    letter-spacing: 4px;
-    width: 20%;
-    height: 350px;
-    padding-top: 20px;
-    padding-left: 10px;
-    background-color: rgba(40, 167, 78, 0.3);
-    top: 250px;
-    left: 725px;
-    margin: auto;
-
-    position: absolute;
-  
-
-}
-
-#about {
-    height: 300px;
-    width: 80%;
-}
-
-#lhsp {
-
-    width: 30%;
-    height: 80%;
-    float: left;
-    text-align: right;
-    padding-left: 75px;
-
-}
-
-#rhsp {
-
-    width: 30%;
-    height: 80%;
-    float: right;
-    text-align: left;
-    padding-right: 75px;
-}
-
-.container {
-
-     width: 100%;
-     height: 50px;
-     margin-top: 10px;
-     margin-bottom: 50px;
-
-     display: flex;
-     justify-content: center;
-
-}
 
 #aboutus {
 
     padding-top: 30px;
     padding-bottom: 20px;
-    justify-content: center;
-   
 }
-
-#logo-center {
-
-    width: 30px;
-    height: 30px;
-    margin: 0 auto;
-     
-}
-
-.location {
-
-    padding: 100px;
-    position: relative;
-    display: flex;
-    width: 100%;
-    overflow: hidden;
+.opening-hours {
+    color: #ffffff;
+    bottom: 0;
+ 
     
 }
 
-#opening-hours {
-    color:#ffffff;
-    text-align: center;
-    padding: 5%;
-    
-}
-
-#opening-hours ul {
+.opening-hours ul {
     
     list-style-type: none;
+    display: inline-flex;
 }
 
-footer{
-    height: 150px;
+footer { 
+    height: 100px;
+    background-color: #8DB99D;
 }
 
 .social-networks{
@@ -243,10 +135,25 @@ footer{
 
 .social-networks i{
     font-size: 160%;
-    margin: 1%;
-    padding: 5%;
     color: #3a3a3a;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #493548;
+    color: white;
+    text-align: center;
+  }
+
+  .days {
+    color:#8DB99D;
+    display: inline-flex;
+   
+  
+  }
 
 
 

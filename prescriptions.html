@@ -23,7 +23,7 @@
             <ul id="menu">
                 
                 <li>
-                    <a href="pharmacy-services.html">Pharmacy Services</a>
+                    <a href="book-consultation.html">Book Consultation</a>
                 </li>
                 <li>
                     <a href="medical-conditions.html">Medical Conditions</a>
@@ -46,23 +46,63 @@
     </header>    
         
     <section id="prescriptions-background-outer">
-        <div id="prescriptions-background"></div>
+        <div id="prescriptions-background">
+            <div id="form">
+                <section class="prescription-form-section">
+                    <form class="order-prescription-form" method="POST" action="https://formdump.pharmacy4u.ie/">
+                        <h2>Order Prescription <i class="fa-solid fa-prescription"></i></i> </h2>
+                    
+                        <label for="fname">First Name</label>
+                        <input id="fname" class="text-input" type="text" name="first_name" required />
+        
+                        <label for="lname">Last Name</label>
+                        <input id="lname" class="text-input" type="text"  name="last_name" required />
+        
+                        <label for="email">Email Address</label>
+                        <input id="email" class="text-input" type="email" name="email_address" required/>
+        
+                        <label for="phone_number">Phone Number</label>
+                        <input id="phone_number" class="text-input" type="tel" name="phone_number" required/>
 
-
-    </section>
-
-    
+                        <label for="collection_day_time">Collection Day/Time</label>
+                        <input id="collection_day_time" class="text-input" type="text" name="collection_day_time" required/>
+        
+                        <label for="new-prescription" class="form-script">New Prescription</label>
+                        <input id="new-prescription" type="radio" name ="prescription_type" value="new" required/>
+        
+                        <label for="prescription-on-file" class="form-script">Prescription Held On File</label>
+                        <input id="prescription-on-file" type="radio" name="prescription_type" value="on-file"/>
+        
+                        <label for="upload-prescription" class="form-script">Upload Prescription</label>
+                        <input id="upload-prescription" type="file" name="upload-prescription" value="both"/>
+        
+                        <input class="submit-button"  type="submit" value="Submit"/>
+                    
+                    </form>
+             
+                </section> 
+            </div>
+        </div>    
+        
+    </section>    
 
     <footer>
+
+     
         <div class="footer">    
             <div class="opening-hours">
-                    Opening Hours: &nbsp;
+                    Opening Hours:&nbsp;
                 <ul>  
                     <li> <div class="days"><b>Mon-Fri:</b></div> 9-6.30pm |</li>
                     <li> <div class="days"><b>&nbsp;Sat:</b></div> 9.30-6pm |</li>
                     <li> <div class="days"><b>&nbsp;Sun:</b></div> closed </li>
                 </ul>
             </div>
+    
+            <div id="contact-details"> <div class="TF"><b>T:</b></div> 01 123 4567 || <div class="TF"><b>E:</b></div> info@pharmacy4u.ie</div>
+            
+    
+        
         </div>
     
       
@@ -76,6 +116,10 @@
                 <li><a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube-square"></i></a></li>
                 <li><a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
             </ul>
+        </div>
+    
+        <div id="contact-details"> T: 01 123 4567 </div>
+    
         </div>
     
     </footer>

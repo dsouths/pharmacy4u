@@ -88,6 +88,7 @@ h3 {
     border-bottom: 1px solid #8DB99D;
 }
 
+/* background images for each page*/
 
 #landing-image-outer {
     height:850px;
@@ -113,25 +114,22 @@ h3 {
     position: relative;
   }
 
-  #prescriptions-background {
+#prescriptions-background {
     height:850px;
     width: 100%;
     background:url("images/leohoho-DRchVK5apjw-unsplash.jpg") no-repeat center center;
-    
-    animation-name: zoom;
-    animation-duration: 2.5s;
-    animation-fill-mode:forwards;
+  
 
 }
 
-    #pharmacy-services-background-outer {
-      height:850px;
-      width: 100%;
-      overflow: hidden;
-      position: relative;
-  }
+#book-consultation-outer {
+    height:850px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
 
-    #pharmacy-services-background {
+#book-consultation-background {
     height:850px;
     width: 100%;
     background:url("images/towfiqu-barbhuiya-hn2hQoALBCk-unsplash.jpg") no-repeat center center;
@@ -171,6 +169,8 @@ h3 {
     text-size-adjust: 150%;
     text-align: center;
 }
+
+/*landing page order prescriptions & book consultation buttons*/
 
 #order-scripts-button {
     background-color: #493548; 
@@ -235,23 +235,26 @@ h3 {
     color: #ffffff;
     bottom: 0;
     float: left;
+    padding-left: 20px;
  
 }
 
 .opening-hours ul {
     list-style-type: none;
     display: inline-flex;
+  
 }
 
 #contact-details {
     float:right;
-    padding-right: 10px;
+    padding-right: 20px;
   }
 
 footer { 
     height: 80px;
     background-color: #8DB99D;
     padding-top: 10px;
+  
 
 }
 
@@ -291,9 +294,53 @@ footer {
     color:#8DB99D;
     display: inline-flex;
     font-size: 110%;
-  }
-
   
+  }
+/* prescription order form*/
+
+  .prescriptions-background-outer {
+    clear: left;
+    background: url("/images/leohoho-DRchVK5apjw-unsplash.jpg;");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+  .order-prescription-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: #493548BF;
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.order-prescription-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #8DB99D;
+}
+
+.form-script {
+    display: inline-block;
+    
+}
+
+
 
  
 

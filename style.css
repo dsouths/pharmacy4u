@@ -369,8 +369,7 @@ footer {
     right: 800px;
 }
 
-#prescription-form-section {
-    
+#book-consultation-section {
     
     Width: 600px;
     height: 700px;
@@ -378,8 +377,9 @@ footer {
     color:#8DB99D;
     background-color: #493548BF;
     top: 30px;
-
+    right: 30px;
     position: absolute;
+    float: right;
 }
 
 

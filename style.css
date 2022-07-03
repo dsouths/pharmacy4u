@@ -118,7 +118,9 @@ h3 {
     height:850px;
     width: 100%;
     background:url("images/leohoho-DRchVK5apjw-unsplash.jpg") no-repeat center center;
-  
+    animation-name: zoom;
+    animation-duration: 2.5s;
+    animation-fill-mode:forwards;
 
 }
 
@@ -298,21 +300,17 @@ footer {
   }
 /* prescription order form*/
 
-  .prescriptions-background-outer {
-  
-    background: url("/images/leohoho-DRchVK5apjw-unsplash.jpg;") no repeat center center;
-    height: 900px;
-  
-}
 
-  .order-prescription-form {
-    margin: 70px 10% 0 0;
+#prescription-form-section {
+    
+    Width: 600px;
+    height: 700px;
+    padding: 20px;
     color:#8DB99D;
     background-color: #493548BF;
-    max-width: 400px;
+    top: 30px;
     position: absolute;
-    left: 10%;
-    padding: 30px;
+    
 }
 
 .order-prescription-form > h2 {
@@ -336,9 +334,7 @@ footer {
 
 .form-script {
     display:inline-flex;
-    
 
-    
 }
 
 .submit-button {
@@ -362,12 +358,7 @@ footer {
     display: flex;
 }
 
-.prescription-form-section {
-    float: right;
-    position: static;
-    top: 10px;
-    right: 800px;
-}
+
 
 #book-consultation-section {
     

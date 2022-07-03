@@ -299,16 +299,15 @@ footer {
 /* prescription order form*/
 
   .prescriptions-background-outer {
-    clear: left;
-    background: url("/images/leohoho-DRchVK5apjw-unsplash.jpg;");
-    background-size: cover;
-    background-position: center;
+  
+    background: url("/images/leohoho-DRchVK5apjw-unsplash.jpg;") no repeat center center;
     height: 900px;
+  
 }
 
   .order-prescription-form {
-    margin: 150px 10% 0 0;
-    color: #fff;
+    margin: 70px 10% 0 0;
+    color:#8DB99D;
     background-color: #493548BF;
     max-width: 400px;
     position: absolute;
@@ -317,7 +316,7 @@ footer {
 }
 
 .order-prescription-form > h2 {
-    color: #fafafa;
+    color:#8DB99D;
     margin-bottom: 20px;
 }
 
@@ -336,9 +335,58 @@ footer {
 }
 
 .form-script {
-    display: inline-block;
+    display:inline-flex;
+    
+
     
 }
+
+.submit-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #8DB99D;
+    color: #493548;
+    display: block;
+    float: right;
+}
+
+.submit-button:hover {
+    background-color: #fafafa;
+    color: #493548;
+}
+
+.upload-prescription {
+    display: flex;
+}
+
+.prescription-form-section {
+    float: right;
+    position: static;
+    top: 10px;
+    right: 800px;
+}
+
+#prescription-form-section {
+    
+    
+    Width: 600px;
+    height: 700px;
+    padding: 20px;
+    color:#8DB99D;
+    background-color: #493548BF;
+    top: 30px;
+
+    position: absolute;
+}
+
+
+    
+ 
+  
+
 
 
 

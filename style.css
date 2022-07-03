@@ -37,7 +37,7 @@ h1 {
 
 h3 {
     background-color: #8DB99D;
-    padding: 2px 30px 2px;
+    padding: 1px 30px 1px;
     color:#493548;
     font-family: 'italianno', sans-serif;
     font-size: 150%;
@@ -62,7 +62,6 @@ h3 {
 /* navigation links */
 
 #menu {
-    
     font-family: 'Cabin', Sans-Serif;
     color:#8DB99D;
     font-size: 90%;
@@ -105,7 +104,6 @@ h3 {
 }
 
 #order-scripts-button {
-
     background-color: #493548; 
     border: none;
     border-radius: 12px;
@@ -133,8 +131,7 @@ h3 {
 }
 
 #book-consultation-button {
-
-    background-color: #8DB99D; 
+    background-color: #8DB99Dbf; 
     border: none;
     border-radius: 12px;
     color: #493548;
@@ -151,11 +148,7 @@ h3 {
 
 }
 
-
-
-
 #aboutus {
-
     font-family: 'Cabin', Sans-Serif;
     padding-top: 30px;
     padding-bottom: 20px;
@@ -172,18 +165,20 @@ h3 {
 }
 
 .opening-hours ul {
-    
     list-style-type: none;
     display: inline-flex;
 }
 
 footer { 
-    height: 30px;
+    height: 80px;
     background-color: #8DB99D;
+    padding-top: 10px;
+
 }
 
 .social-networks{
     text-align: center;
+    letter-spacing: 10px;
 
 }
 
@@ -206,15 +201,30 @@ footer {
     text-align: center;
   }
 
-  
-
   .days {
     color:#8DB99D;
     display: inline-flex;
     font-size: 110%;
-   
-  
+
   }
+
+#prescriptions-background {
+    height:850px;
+    width: 100%;
+    background:url("images/leohoho-DRchVK5apjw-unsplash.jpg") no-repeat center center;
+}
+
+#pharmacy-services-background {
+    height:850px;
+    width: 100%;
+    background:url("images/towfiqu-barbhuiya-hn2hQoALBCk-unsplash.jpg") no-repeat center center;
+}
+
+#medical-conditions-background {
+    height:850px;
+    width: 100%;
+    background:url("images/pexels-karolina-grabowska-4226769.jpg") no-repeat center center;
+}
 
 
 

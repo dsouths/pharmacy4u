@@ -234,6 +234,7 @@ h3 {
 .opening-hours {
     color: #ffffff;
     bottom: 0;
+    float: left;
  
 }
 
@@ -241,6 +242,11 @@ h3 {
     list-style-type: none;
     display: inline-flex;
 }
+
+#contact-details {
+    float:right;
+    padding-right: 10px;
+  }
 
 footer { 
     height: 80px;
@@ -280,6 +286,14 @@ footer {
     font-size: 110%;
 
   }
+
+  .TF {
+    color:#8DB99D;
+    display: inline-flex;
+    font-size: 110%;
+  }
+
+  
 
  
 

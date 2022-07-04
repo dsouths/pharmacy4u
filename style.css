@@ -191,17 +191,17 @@ h3 {
     box-shadow: 0 9px #8DB99D;
 
 }
+
 #buttons {
     position: absolute;
     top: 100px;
     left: 80px;
 }
-.button:hover {
-    background-color: #602bc4}
+ 
+
 
 .button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
+
   transform: translateY(4px);
 }
 
@@ -224,13 +224,19 @@ h3 {
 }
 
 #aboutus {
-    font-family: 'Cabin', Sans-Serif;
+    font-family: 'roboto-condensed', Sans-Serif;
     padding-top: 30px;
     padding-bottom: 20px;
+    width: 100%;
+    right: 50px;
 }
 
-#blurb {
-    font-family: 'Cabin', Sans-Serif;
+#blurb1, #blurb2 {
+    font-family: 'roboto-condensed', Sans-Serif;
+    height: 200px;
+    width: 50%;
+    padding: 30px;
+    text-align: justify;
 }
 
 .opening-hours {
@@ -303,12 +309,13 @@ footer {
 
 #prescription-form-section {
     
-    Width: 600px;
+    Width: 450px;
     height: 700px;
-    padding: 20px;
+    padding: 25px;
     color:#8DB99D;
     background-color: #493548BF;
     top: 30px;
+    left: 30px;
     position: absolute;
     
 }
@@ -332,22 +339,31 @@ footer {
     border-color: #8DB99D;
 }
 
-.form-script {
-    display:inline-flex;
 
+
+ul {
+    list-style-type: none;
+    
 }
 
 .submit-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
+    
+    border-radius: 5px;
+    padding: 20px 40px 20px 40px;
     text-align: center;
-    font-size: 100%;
+    font-size: 200%;
     background-color: #8DB99D;
     color: #493548;
-    display: block;
     float: right;
+    border: solid;
+    border-radius: 15px;
+    box-shadow: 0 9px #493548;
+    
 }
+
+.submit-button:active {
+    transform: translateY(4px);
+  }
 
 .submit-button:hover {
     background-color: #fafafa;
@@ -362,7 +378,7 @@ footer {
 
 #book-consultation-section {
     
-    Width: 600px;
+    Width: 400px;
     height: 700px;
     padding: 20px;
     color:#8DB99D;
@@ -372,6 +388,7 @@ footer {
     position: absolute;
     float: right;
 }
+
 
 
     

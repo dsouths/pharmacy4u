@@ -68,15 +68,23 @@
                         <label for="collection_day_time">Collection Day/Time</label>
                         <input id="collection_day_time" class="text-input" type="text" name="collection_day_time" required/>
         
-                        <label for="new-prescription" class="form-script">New Prescription</label>
-                        <input id="new-prescription" type="radio" name ="prescription_type" value="new" required/>
-        
-                        <label for="prescription-on-file" class="form-script">Prescription Held On File</label>
-                        <input id="prescription-on-file" type="radio" name="prescription_type" value="on-file"/>
-        
-                        <label for="upload-prescription" class="upload-prescription">Upload Prescription</label>
-                        <input id="upload-prescription" type="file" name="upload-prescription" value="both"/>
-        
+                    <ul id="script-type">
+                        <li>
+                            <label for="new-prescription" class="form-script">New Prescription</label>
+                            <input id="new-prescription" type="radio" name ="prescription_type" value="new" required/>
+                        </li>
+
+                        <li>
+                            <label for="prescription-on-file" class="form-script">Prescription Held On File</label>
+                            <input id="prescription-on-file" type="radio" name="prescription_type" value="on-file"/>
+                        </li>  
+
+                        <li>
+                            <label for="upload-prescription" class="form-script">Upload Prescription</label>
+                            <input id="upload-prescription" type="file" name="upload-prescription" value="both"/>
+                        </li>  
+
+                    </ul>
                         <input class="submit-button"  type="submit" value="Order"/>
                     
                     </form>

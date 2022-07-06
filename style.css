@@ -208,9 +208,9 @@ h3 {
 #book-consultation-button {
     background-color: #8DB99Dbf; 
     border: none;
-    border-radius: 12px;
+    border-radius: 10px;
     color: #493548;
-    padding: 15px 32px;
+    padding: 5px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-flex;
@@ -375,11 +375,10 @@ ul {
 }
 
 
-
 #book-consultation-section {
     
     Width: 400px;
-    height: 700px;
+    height: 600px;
     padding: 20px;
     color:#8DB99D;
     background-color: #493548BF;
@@ -387,6 +386,11 @@ ul {
     right: 30px;
     position: absolute;
     float: right;
+}
+
+#book-button {
+    float: left;
+
 }
 
 

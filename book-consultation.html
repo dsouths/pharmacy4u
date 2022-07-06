@@ -2,17 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pharmacy4u - book consultation</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="pharmacy4u online pharmacy supplies & advice in Dublin, Ireland.">
+        <meta name="keywords" content="pharmacy, medication, medicine, skincare, healthcare advice, healthcare, chemist, pharmacist">
+        <title>pharmacy4u - home</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
+        
+    <!--stylesheet-->
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico.svg">
     <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
 
 
     <header>
@@ -64,19 +70,19 @@
                     <label for="phone_number">Phone Number</label>
                     <input id="phone_number" class="text-input" type="tel" name="phone_number" required/>
 
-                    <label for="collection_day_time">Collection Day/Time</label>
-                    <input id="collection_day_time" class="text-input" type="text" name="collection_day_time" required/>
+                    <label for="cough_cold">Cough/Cold/Sore Throat</label>
+                    <input id="cough_cold_sore-throat" class="checkbox" type="checkbox" name="cough_cold_sore-throat"/>
     
-                    <label for="new-prescription" class="form-script">New Prescription</label>
-                    <input id="new-prescription" type="radio" name ="prescription_type" value="new" required/>
+                    <label for="Digestive_Stomach">Digestive/Stomach Issue</label>
+                    <input id="Digestive_Stomach" class="checkbox" type="checkbox" name="Digestive_Stomach"/>
     
-                    <label for="prescription-on-file" class="form-script">Prescription Held On File</label>
-                    <input id="prescription-on-file" type="radio" name="prescription_type" value="on-file"/>
+                    <label for="hayfever">Hayfever</label>
+                    <input id="hayfever" class="checkbox" type="checkbox" name="hayfever"/>
     
-                    <label for="upload-prescription" class="upload-prescription">Upload Prescription</label>
-                    <input id="upload-prescription" type="file" name="upload-prescription" value="both"/>
+                    <label for="discuss_meds">Discuss New Medication</label>
+                    <input id="discuss_meds" class="checkbox" type="checkbox" name="discuss_meds"/>
     
-                    <input class="submit-button"  type="submit" value="Book"/>
+                    <input class="submit-button"  type="submit" value="Book" id="book-button"/>
                 
                 </form>
            

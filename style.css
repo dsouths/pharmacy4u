@@ -14,6 +14,7 @@ Font-Size: 16px;
 
 header {
     background-color: #493548;
+    
 }
 
 body {
@@ -41,6 +42,7 @@ h3 {
     color:#493548;
     font-family: 'italianno', sans-serif;
     font-size: 150%;
+    
 }
 
 
@@ -51,6 +53,7 @@ h3 {
     margin-left: 30px;
     margin-top: 20px;
     color:#8DB99D;
+    padding-bottom: 100px;
 }
 
 #logo3 {
@@ -100,7 +103,7 @@ h3 {
 #landing-image {
     height:850px;
     width: 100%;
-    background:url("images/adam-niescioruk-hWzrJsS8gwI-unsplash.jpg") no-repeat center center;
+    background:url("/assets/images/adam-niescioruk-hWzrJsS8gwI-unsplash.jpg") no-repeat center center;
     animation-name: zoom;
     animation-duration: 2.5s;
     animation-fill-mode:forwards;
@@ -117,7 +120,7 @@ h3 {
 #prescriptions-background {
     height:850px;
     width: 100%;
-    background:url("images/leohoho-DRchVK5apjw-unsplash.jpg") no-repeat center center;
+    background:url("/assets/images/leohoho-DRchVK5apjw-unsplash.jpg") no-repeat center center;
     animation-name: zoom;
     animation-duration: 2.5s;
     animation-fill-mode:forwards;
@@ -134,7 +137,7 @@ h3 {
 #book-consultation-background {
     height:850px;
     width: 100%;
-    background:url("images/towfiqu-barbhuiya-hn2hQoALBCk-unsplash.jpg") no-repeat center center;
+    background:url("assets/images/towfiqu-barbhuiya-hn2hQoALBCk-unsplash.jpg") no-repeat center center;
     animation-name: zoom;
     animation-duration: 2.5s;
     animation-fill-mode:forwards;
@@ -151,7 +154,7 @@ h3 {
 #medical-conditions-background {
     height:850px;
     width: 100%;
-    background:url("images/pexels-karolina-grabowska-4226769.jpg") no-repeat center center;
+    background:url("assets/images/pexels-karolina-grabowska-4226769.jpg") no-repeat center center;
     animation-name: zoom;
     animation-duration: 2.5s;
     animation-fill-mode:forwards;
@@ -172,7 +175,7 @@ h3 {
     text-align: center;
 }
 
-/*landing page order prescriptions & book consultation buttons*/
+/*landing page LARGE order prescriptions & book consultation buttons*/
 
 #order-scripts-button {
     background-color: #493548; 
@@ -223,12 +226,23 @@ h3 {
 
 }
 
+/* about us section giving some info & image of pharmacy to break up the text */
+#about-us-container {
+    width: 100% ;
+    background-color: #493548;
+    background-image: linear-gradient(360deg, #493548, #8DB99Dbf);
+    border-top: solid #8DB99D 20px;
+}
+
 #aboutus {
     font-family: 'roboto-condensed', Sans-Serif;
+    font-size: 200%;
     padding-top: 30px;
     padding-bottom: 20px;
-    width: 100%;
-    right: 50px;
+    margin-left: 400px;
+    color:#ffffff;
+    
+
 }
 
 #blurb1, #blurb2 {
@@ -237,8 +251,26 @@ h3 {
     width: 50%;
     padding: 30px;
     text-align: justify;
+    color:#ffffff;
 }
 
+#right-about {
+    width: 50%;
+}
+
+#pinktabs{
+
+    height: 50%;
+    border-radius: 50%;
+    position: flex;
+    float: right;
+    margin-right: 100px;
+    border: solid #8DB99D 5px;
+  
+}
+
+
+/* fixed footer for opening hours & contact details */
 .opening-hours {
     color: #ffffff;
     bottom: 0;
@@ -266,6 +298,7 @@ footer {
 
 }
 
+/* non-fixed footer for social media links */
 .social-networks{
     text-align: center;
     letter-spacing: 10px;
@@ -304,8 +337,9 @@ footer {
     font-size: 110%;
   
   }
-/* prescription order form*/
 
+
+/* prescription order form*/
 
 #prescription-form-section {
     
@@ -315,7 +349,7 @@ footer {
     color:#8DB99D;
     background-color: #493548BF;
     top: 30px;
-    left: 30px;
+    left: 100px;
     position: absolute;
     
 }
@@ -339,11 +373,8 @@ footer {
     border-color: #8DB99D;
 }
 
-
-
 ul {
     list-style-type: none;
-    
 }
 
 .submit-button {
@@ -374,6 +405,7 @@ ul {
     display: flex;
 }
 
+/* book consultaion input form */
 
 #book-consultation-section {
     
@@ -382,14 +414,18 @@ ul {
     padding: 20px;
     color:#8DB99D;
     background-color: #493548BF;
-    top: 30px;
-    right: 30px;
+    top: 100px;
+    right: 200px;
     position: absolute;
-    float: right;
+    
 }
 
 #book-button {
-    float: left;
+    float: right;
+    padding: 10px 20px 10px 20px;
+    margin-top: 35px;
+    
+
 
 }
 

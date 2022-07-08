@@ -20,11 +20,10 @@
 <h2>Features</h2>
 
 <h3> Navigation Bar</h3>
-
-
     
 <p>
 
+I have made this simple & easy to navigate to the different pages on the
 
 </p>
 

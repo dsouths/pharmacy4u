@@ -35,22 +35,32 @@ I have ensured the nav bar is consistant among all of the pages to ensure contin
 
 </p>
 
-<h4>Landing Page Image</h4>
-                                                                       
+<h4>Landing Page</h4>
+
+![Landing Page - Screenshot 2022-07-08 141528 ](https://user-images.githubusercontent.com/105642587/178016830-5d530624-43ad-4113-8d29-1e98351278d2.png)
+
+<p> 
+I have used an image of tablets in a cup to convey to the user this website is a pharmacy website. I have used the zoom in function, like in the love running project, as I believe the dynamic image creates interest to the user making the website more appealing, which is vitally important on a landing page.
+
+I have created two styled, clickable buttons for ordering prescriptions & booking a consultation. I have made these very visible to convey to the user the purpose of the website & to improve navigation for the user. I have styled these & created an action when clicked to emulate pressing a button which I believe will create an emotional response of satisfaction, be it small, but still creating satisfaction to the user. 
+	
+I have created a fixed footer & a unfixed footer & will discuss later. 
+
+</p>
+
+<h4>About Us Section</h4>
+
+
+
 																																			
 
 
                                                                        
-                                                                       
-                                                                       
-                                                                       
-                                                                       
-                                                                   
+                                              
 
 
 
 
 
-
-  <img src=[](vscode-remote://dsouths-pharmacy-vwkvvtr38fr.ws-eu51.gitpod.io/workspace/pharmacy/assets/screenshots/Landing%20Page%20-%20Screenshot%202022-07-08%20141528%20.png)>
+  
 

@@ -243,7 +243,6 @@ h3 {
     margin-left: 400px;
     color:#ffffff;
     
-
 }
 
 #blurb1, #blurb2 {
@@ -254,8 +253,6 @@ h3 {
     text-align: justify;
     color:#ffffff;
 }
-
-
 
 #pinktabs{
 
@@ -268,7 +265,6 @@ h3 {
     box-shadow: #26394d 0px 20px 30px -10px;
   
 }
-
 
 /* fixed footer for opening hours & contact details */
 .opening-hours {
@@ -385,16 +381,18 @@ ul {
 
 .submit-button {
     
+    
     border-radius: 5px;
-    padding: 20px 40px 20px 40px;
+    padding: 10px 20px 10px 20px;
     text-align: center;
-    font-size: 200%;
+    font-size: 175%;
     background-color: #8DB99D;
     color: #493548;
     float: right;
     border: solid;
     border-radius: 15px;
     box-shadow: 0 9px #493548;
+    margin-top: -60px;
     
 }
 

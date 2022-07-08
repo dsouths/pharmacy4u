@@ -15,8 +15,6 @@
 
 </p>
 
-<hr>
-
 <h2>Features</h2>
 
 <h4> Navigation Bar</h4>

@@ -331,12 +331,11 @@ footer {
     color:#8DB99D;
     display: inline-flex;
     font-size: 110%;
-  
   }
 
 
 
-  #email:hover {
+  .email:hover {
     background-color: #8DB99D;
   }
     
@@ -344,7 +343,6 @@ footer {
 /* prescription order form*/
 
 #prescription-form-section {
-    
     Width: 450px;
     height: 700px;
     padding: 25px;
@@ -380,8 +378,6 @@ ul {
 }
 
 .submit-button {
-    
-    
     border-radius: 5px;
     padding: 10px 20px 10px 20px;
     text-align: center;

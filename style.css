@@ -414,7 +414,7 @@ ul {
 #book-consultation-section {
     
     Width: 400px;
-    height: 600px;
+    height: 625px;
     padding: 20px;
     color:#8DB99D;
     background-color: #493548BF;
@@ -427,8 +427,14 @@ ul {
 #book-button {
     float: right;
     padding: 10px 20px 10px 20px;
-    margin-top: 35px;
+    margin-top: -5px;
 
+}
+
+.checkbox ul, #checkbox {
+    display: inline-flex;
+    width: 80%;
+    
 }
 
 /* Media queries */

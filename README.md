@@ -23,6 +23,7 @@
 
 <p>
 I have made this easy to navigate between each page with a simple nav bar of four selections:
+	
     *Home
     *Prescriptions
     *Medical Conditions

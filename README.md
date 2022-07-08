@@ -30,7 +30,7 @@ I have made this easy to navigate between each page with a simple nav bar of fou
     
 I have ensured the nav bar is consistant among all of the pages to ensure continuity on the website. I have colored these in contrast to the background to make them stand out. I have also employed a hover function that underlines the link & signifies a call to action for the user
 
-<img src=![Nav Bar - Screenshot 2022-07-08 141609](https://user-images.githubusercontent.com/105642587/178016416-1ff7564f-ea2a-41e9-b973-dce60ade26ba.png)>
+![Nav Bar - Screenshot 2022-07-08 141609](https://user-images.githubusercontent.com/105642587/178016416-1ff7564f-ea2a-41e9-b973-dce60ade26ba.png)
 
 </p>
 

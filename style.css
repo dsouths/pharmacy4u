@@ -213,7 +213,7 @@ h3 {
     border: none;
     border-radius: 10px;
     color: #493548;
-    padding: 5px 15px;
+    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-flex;
@@ -227,11 +227,12 @@ h3 {
 }
 
 /* about us section giving some info & image of pharmacy to break up the text */
+
 #about-us-container {
     width: 100% ;
     background-color: #493548;
-    background-image: linear-gradient(360deg, #493548, #8DB99Dbf);
-    border-top: solid #8DB99D 20px;
+    background-image: linear-gradient(180deg, #493548,#8DB99D);
+    border-top: solid #493548 10px;
 }
 
 #aboutus {
@@ -254,9 +255,7 @@ h3 {
     color:#ffffff;
 }
 
-#right-about {
-    width: 50%;
-}
+
 
 #pinktabs{
 
@@ -424,14 +423,38 @@ ul {
     float: right;
     padding: 10px 20px 10px 20px;
     margin-top: 35px;
-    
-
 
 }
 
+/* Media queries */
 
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+   
+    #menu {
+        width: 100%;
+        height: 50px;
+        margin: 0 auto;
+        overflow: hidden;
+        padding-top: 100px;
+    }
 
+   #about-us-container {
+    height: 1100px;
+   }
+
+   #blurb1, #blurb2 {
+    height: 600px;
     
+   }
+
+   #pinktabs {
+    display: block;
+    size-adjust: 50%;
+   }
+}
+
+
  
   
 

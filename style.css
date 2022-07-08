@@ -338,15 +338,12 @@ footer {
   
   }
 
- 
 
-  .email{
-    opacity:0.7;
+
+  #email:hover {
+    background-color: #8DB99D;
   }
- 
-  .email:hover{
-    opacity:1;
-  }
+    
 
 /* prescription order form*/
 

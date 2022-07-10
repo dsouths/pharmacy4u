@@ -85,7 +85,7 @@ h3 {
 #landing-image {
     height:850px;
     width: 100%;
-    background:url("assets/images/adam-niescioruk-hWzrJsS8gwI-unsplash.jpg") no-repeat center center;
+    background:url("/assets/images/adam-niescioruk-hWzrJsS8gwI-unsplash.jpg") no-repeat center center;
     animation-name: zoom;
     animation-duration: 2.5s;
     animation-fill-mode:forwards;   
@@ -101,7 +101,7 @@ h3 {
 #prescriptions-background {
     height:850px;
     width: 100%;
-    background:url("assets/images/leohoho-DRchVK5apjw-unsplash.jpg") no-repeat center center;
+    background:url("/assets/images/leohoho-DRchVK5apjw-unsplash.jpg") no-repeat center center;
     animation-name: zoom;
     animation-duration: 2.5s;
     animation-fill-mode:forwards;
@@ -117,27 +117,12 @@ h3 {
 #book-consultation-background {
     height:850px;
     width: 100%;
-    background:url("assets/images/towfiqu-barbhuiya-hn2hQoALBCk-unsplash.jpg") no-repeat center center;
+    background:url("/assets/images/towfiqu-barbhuiya-hn2hQoALBCk-unsplash.jpg") no-repeat center center;
     animation-name: zoom;
     animation-duration: 2.5s;
     animation-fill-mode:forwards;
 }
 
-#location-outer {
-    height:850px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-#location-background {
-    height:850px;
-    width: 100%;
-    background:url("assets/images/pexels-karolina-grabowska-4226769.jpg") no-repeat center center;
-    animation-name: zoom;
-    animation-duration: 2.5s;
-    animation-fill-mode:forwards;
-}
 
 @keyframes zoom {
     from{

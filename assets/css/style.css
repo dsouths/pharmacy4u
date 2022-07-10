@@ -1,10 +1,4 @@
 
-/* use these fonts 
-Font-Family: 'Roboto Condensed', Sans-Serif;
-Font-Size: 35px;
-Font-Family: 'Cabin', Sans-Serif;
-Font-Size: 16px;
-*/
 
 *{
     margin:0;
@@ -137,13 +131,13 @@ h3 {
 #book-consultation-background {
     height:850px;
     width: 100%;
-    background:url("assets/images/towfiqu-barbhuiya-hn2hQoALBCk-unsplash.jpg") no-repeat center center;
+    background:url("/assets/images/towfiqu-barbhuiya-hn2hQoALBCk-unsplash.jpg") no-repeat center center;
     animation-name: zoom;
     animation-duration: 2.5s;
     animation-fill-mode:forwards;
 }
 
-#medical-conditions-background-outer {
+#location-outer {
     height:850px;
     width: 100%;
     overflow: hidden;
@@ -151,10 +145,10 @@ h3 {
 }
 
 
-#medical-conditions-background {
+#location-background {
     height:850px;
     width: 100%;
-    background:url("assets/images/pexels-karolina-grabowska-4226769.jpg") no-repeat center center;
+    background:url("/assets/images/pexels-karolina-grabowska-4226769.jpg") no-repeat center center;
     animation-name: zoom;
     animation-duration: 2.5s;
     animation-fill-mode:forwards;
@@ -298,7 +292,6 @@ footer {
 .social-networks{
     text-align: center;
     letter-spacing: 10px;
-
 }
 
 .social-networks li{
@@ -324,7 +317,6 @@ footer {
     color:#8DB99D;
     display: inline-flex;
     font-size: 110%;
-
   }
 
   .TF {
@@ -333,12 +325,6 @@ footer {
     font-size: 110%;
   }
 
-
-
-  .email:hover {
-    background-color: #8DB99D;
-  }
-    
 
 /* prescription order form*/
 
@@ -351,7 +337,7 @@ footer {
     top: 30px;
     left: 100px;
     position: absolute;
-    
+
 }
 
 .order-prescription-form > h2 {
@@ -409,7 +395,7 @@ ul {
 
 #book-consultation-section {
     
-    Width: 400px;
+    width: 400px;
     height: 625px;
     padding: 20px;
     color:#8DB99D;
@@ -417,21 +403,33 @@ ul {
     top: 100px;
     right: 200px;
     position: absolute;
-    
 }
 
 #book-button {
     float: right;
     padding: 10px 20px 10px 20px;
-    margin-top: -10px;
-
+    margin-top: -10px
 }
 
 .checkbox ul, #checkbox {
     display: inline-flex;
-    width: 80%;
-    
+    width: 80%;   
 }
+
+.mapouter {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+
+
 
 /* Media queries */
 

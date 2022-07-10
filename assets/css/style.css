@@ -8,17 +8,13 @@
 
 header {
     background-color: #493548;
-    
 }
 
 body {
     Font-Family: 'Roboto Condensed', Sans-Serif;
     Font-Size: 25px;  
     color: #3a3a3a;
-    
-
 }
-
 
 /*used coloors.co to get color palette to make site more appealing to user*/
 h1 {
@@ -27,7 +23,6 @@ h1 {
     color: #8DB99D;
     line-height: 50px;
     position: absolute;
-    
 }
 
 h3 {
@@ -36,10 +31,7 @@ h3 {
     color:#493548;
     font-family: 'italianno', sans-serif;
     font-size: 150%;
-    
 }
-
-
 
 #logo {
     float: left;
@@ -53,7 +45,6 @@ h3 {
 #logo3 {
     float: left;
     font-size: 35%;
-    
 }
 
 /* navigation links */
@@ -65,10 +56,7 @@ h3 {
     letter-spacing: 3px;
     padding-top: 40px;
     padding-bottom: 60px;
-   
 }
-
-
 
 #menu li {
     float: right;
@@ -97,11 +85,10 @@ h3 {
 #landing-image {
     height:850px;
     width: 100%;
-    background:url("/assets/images/adam-niescioruk-hWzrJsS8gwI-unsplash.jpg") no-repeat center center;
+    background:url("assets/images/adam-niescioruk-hWzrJsS8gwI-unsplash.jpg") no-repeat center center;
     animation-name: zoom;
     animation-duration: 2.5s;
-    animation-fill-mode:forwards;
-    
+    animation-fill-mode:forwards;   
 }
 
 #prescriptions-background-outer {
@@ -114,11 +101,10 @@ h3 {
 #prescriptions-background {
     height:850px;
     width: 100%;
-    background:url("/assets/images/leohoho-DRchVK5apjw-unsplash.jpg") no-repeat center center;
+    background:url("assets/images/leohoho-DRchVK5apjw-unsplash.jpg") no-repeat center center;
     animation-name: zoom;
     animation-duration: 2.5s;
     animation-fill-mode:forwards;
-
 }
 
 #book-consultation-outer {
@@ -131,7 +117,7 @@ h3 {
 #book-consultation-background {
     height:850px;
     width: 100%;
-    background:url("/assets/images/towfiqu-barbhuiya-hn2hQoALBCk-unsplash.jpg") no-repeat center center;
+    background:url("assets/images/towfiqu-barbhuiya-hn2hQoALBCk-unsplash.jpg") no-repeat center center;
     animation-name: zoom;
     animation-duration: 2.5s;
     animation-fill-mode:forwards;
@@ -144,11 +130,10 @@ h3 {
     position: relative;
 }
 
-
 #location-background {
     height:850px;
     width: 100%;
-    background:url("/assets/images/pexels-karolina-grabowska-4226769.jpg") no-repeat center center;
+    background:url("assets/images/pexels-karolina-grabowska-4226769.jpg") no-repeat center center;
     animation-name: zoom;
     animation-duration: 2.5s;
     animation-fill-mode:forwards;
@@ -186,7 +171,6 @@ h3 {
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #8DB99D;
-
 }
 
 #buttons {
@@ -194,11 +178,8 @@ h3 {
     top: 100px;
     left: 80px;
 }
- 
-
 
 .button:active {
-
   transform: translateY(4px);
 }
 
@@ -236,7 +217,6 @@ h3 {
     padding-bottom: 20px;
     margin-left: 400px;
     color:#ffffff;
-    
 }
 
 #blurb1, #blurb2 {
@@ -248,8 +228,14 @@ h3 {
     color:#ffffff;
 }
 
-#pinktabs{
+#address {
+    color: #ffffff;
+    font-family: 'roboto-condensed', Sans-Serif;
+    padding: 30px;
+    text-size-adjust: 150%; 
+}
 
+#pinktabs{
     height: 50%;
     border-radius: 50%;
     position: flex;
@@ -257,7 +243,6 @@ h3 {
     margin-right: 100px;
     border: solid #8DB99D 5px;
     box-shadow: #26394d 0px 20px 30px -10px;
-  
 }
 
 /* fixed footer for opening hours & contact details */
@@ -266,13 +251,11 @@ h3 {
     bottom: 0;
     float: left;
     padding-left: 20px;
- 
 }
 
 .opening-hours ul {
     list-style-type: none;
     display: inline-flex;
-  
 }
 
 #contact-details {
@@ -284,8 +267,6 @@ footer {
     height: 80px;
     background-color: #8DB99D;
     padding-top: 10px;
-  
-
 }
 
 /* non-fixed footer for social media links */
@@ -375,7 +356,6 @@ ul {
     border-radius: 15px;
     box-shadow: 0 9px #493548;
     margin-top: -60px;
-    
 }
 
 .submit-button:active {
@@ -411,23 +391,10 @@ ul {
     margin-top: -10px
 }
 
-.checkbox ul, #checkbox {
+.checkbox ul, #checkbox1, #checkbox2, #checkbox3, #checkbox4, #checkbox5, #checkbox6  {
     display: inline-flex;
     width: 80%;   
 }
-
-.mapouter {
-    position: absolute;
-    top: 200px;
-    left: 400px;
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
-
-}
-
-
-
 
 
 

@@ -13,7 +13,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
         <!--stylesheet-->
-    <link href="assets/css/style.css"rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Cabin%7CRoboto:400,700%7CRoboto+Condensed:400,700" rel="stylesheet">
 </head>
 
@@ -23,6 +23,8 @@
         <a href="index.html">
             <h1 id="logo">pharmacy4u+</h1>
         </a>
+
+         <!--nav bar same as landing page to ensure continuity to the user-->
         <nav>
             <ul id="menu">
                 
@@ -48,6 +50,7 @@
 
     </header>
     
+    <!--book consultation form ensuring required fields are identified so user must input data to submit-->
     <section id="book-consultation-outer">
         <div id="book-consultation-background"></div>
             
@@ -68,23 +71,23 @@
                     <label for="phone_number">Phone Number</label>
                     <input id="phone_number" class="text-input" type="tel" name="phone_number" required/>
 
-                    <label for="cough_cold_sore-throat" id="checkbox">Cough/Cold/Sore Throat</label>
+                    <label for="cough_cold_sore-throat" id="checkbox1">Cough/Cold/Sore Throat</label>
                     <input id="cough_cold_sore-throat" class="checkbox" type="checkbox" name="cough_cold_sore-throat"/>
     
-                    <label for="Digestive_Stomach" id="checkbox">Digestive/Stomach Issue</label>
+                    <label for="Digestive_Stomach" id="checkbox2">Digestive/Stomach Issue</label>
                     <input id="Digestive_Stomach" class="checkbox" type="checkbox" name="Digestive_Stomach"/>
 
-                    <label for="discuss_meds" id="checkbox">Discuss New Medication</label>
+                    <label for="discuss_meds" id="checkbox3">Discuss New Medication</label>
                     <input id="discuss_meds" class="checkbox" type="checkbox" name="discuss_meds"/>
                     
-                    <label for="hayfever" id="checkbox">Hayfever</label>
+                    <label for="hayfever" id="checkbox4">Hayfever</label>
                     <input id="hayfever" class="checkbox" type="checkbox" name="hayfever"/>
 
-                    <label for="pain" id="checkbox">Pain Relief</label>
+                    <label for="pain" id="checkbox5">Pain Relief</label>
                     <input id="pain" class="checkbox" type="checkbox" name="pain"/>
 
-                    <label for="other" id="checkbox">Other</label>
-                    <input id="other" class="checkbox" type="other" name="other"/>
+                    <label for="other" id="checkbox6">Other</label>
+                    <input id="other" class="checkbox" name="other"/>
     
                     <input class="submit-button"  type="submit" value="Book" id="book-button"/>
                 
@@ -95,41 +98,38 @@
     </section>
 
     
-</body>
+    <footer>
+        <!--fixed footer detailing opening hours & contact details to always remain visible to user-->
+        <div class="footer">    
+            <div class="opening-hours"> Opening Hours:&nbsp;
+                <ul>  
+                    <li> <div class="days"><b>Mon-Fri:</b></div> 9-6.30pm |</li>
+                    <li> <div class="days"><b>&nbsp;Sat:</b></div> 9.30-6pm |</li>
+                    <li> <div class="days"><b>&nbsp;Sun:</b></div> closed </li>
+                </ul>
+            </div>
 
-<footer>
+            <div id="contact-details"> <div class="TF"><b>T:</b></div> 01 123 4567 || <div class="TF"><b>E:</b></div><a href="mailto:info@pharmacy4u.ie?" style='text-decoration:none; color: inherit;' class="email"> info@pharmacy4u.ie</a></div>
 
-     
-    <div class="footer">    
-        <div class="opening-hours">
-                Opening Hours:&nbsp;
-            <ul>  
-                <li> <div class="days"><b>Mon-Fri:</b></div> 9-6.30pm |</li>
-                <li> <div class="days"><b>&nbsp;Sat:</b></div> 9.30-6pm |</li>
-                <li> <div class="days"><b>&nbsp;Sun:</b></div> closed </li>
+        </div>
+        <!--footer detailing social network & location that becomes visibile when user scrolls to bottom of the page-->
+        <div class="social-networks">
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube-square"></i></a></li>
+                <li><a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://goo.gl/maps/KjaDWVrEX6E2Jkrw5" target="_blank" rel="noopener"><i class="fa-solid fa-map-location-dot"></i></a></li>
             </ul>
         </div>
 
-        <div id="contact-details"> <div class="TF"><b>T:</b></div> 01 123 4567 || <div class="TF"><b>E:</b></div><a href="mailto:info@pharmacy4u.ie?" style='text-decoration:none; color: inherit;' id="email"> info@pharmacy4u.ie</a></div>
-        
-    </div>
+        </footer>
     
-    <div class="social-networks">
+    <script src="https://kit.fontawesome.com/9e7bc8c011.js" crossorigin="anonymous"></script>
 
-        <ul>
-            <li><a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i></a></li>
-            <li><a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube-square"></i></a></li>
-            <li><a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="https://goo.gl/maps/KjaDWVrEX6E2Jkrw5" target="_blank" rel="noopener"><i class="fa-solid fa-map-location-dot"></i></a></li>
-        </ul>
-    </div>
+</body>
 
 
-   
 
-</footer>
-
-<script src="https://kit.fontawesome.com/9e7bc8c011.js" crossorigin="anonymous"></script>
 
 </html>

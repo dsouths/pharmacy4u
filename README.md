@@ -49,8 +49,16 @@ I have created a fixed footer & a unfixed footer & will discuss later.
 <h4>About Us Section</h4>
 
 <p>
-I have written a short paragraph detailing the owner of the pharmacy, their experience & where the pharmacy is located. This is to give the user some insight into the owner of the pharmacy & create trust in using the pharmacy.  I have included a picture of tablets in a compliance aid, i have styled into an oval shape, to convey the shape of a tablet & created a shadow to make it stand out & to viusally appeal to the user.  I have also included a picture of tablets to convey to the user this is a pharmacy website  
+I have written a short paragraph detailing the owner of the pharmacy, their experience & where the pharmacy is located. This is to give the user some insight into the owner of the pharmacy & create trust in using the pharmacy.  I have included a picture of tablets in a compliance aid, i have styled into an oval shape, to convey the shape of a tablet & created a shadow to make it stand out & to viusally appeal to the user.  I have also included a picture of tablets to convey to the user this is a pharmacy website.
+	
+I have created a link in the Nav bar, "About Us" that brings the user to the "About Us" section so they can easily find out information about this website. Obviously this website is a bit more simplistic than a lot of website but I wanted to learn & use how to do this function as it will be a useful function in future website designs.  I feel it adds to the user experience as they can easily navigate to different sections of the website.   
 
+</p>
+
+<h4>Prescriptions</h4>
+
+<p> 
+This section enables the user to fill out a form to request a prescription from the pharmacy. The user must fill out their credentials name, phone number, email address & comments/details. It also allows the user to inform the pharmacy if it is a prescription they retain on file or if it is a new prescription it offers the user the ability to upload a picture of the prescription to the pharmacy.  
 </p>
 
 

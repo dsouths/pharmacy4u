@@ -3,15 +3,14 @@
 <p> 
     I have made a pharmacy website (Pharmacy4u) that can be used by multiple pharmacies with simple modifications e.g. pharmacy name, logo, location details, etc. It gives basic background information about the pharmacy & enables the user to order prescriptions, book an online consultation & get some information about common medical conditions. I have designed it to be user friendly, visually appealing to the user & to create a positive emotional response by the user with a complimentary color palette & clickable buttons to name a few examples.  The site is targeted at current customers of the pharmacy who wish to improve their level of communication by ordering prescriptions or booking online consultations via the website & also new prospective customers that may not be aware of the pharmacy, thus improvin it's online profile.  
 
-    The aim of the website is to:
+The aim of the website is to:
 
-    * clearly indicate the purpose of the website to the user
-    * improve online presence of pharmacy by creating an interactive website
-    * enable the user to contact the pharmacy via for specific reasons e.g. order prescription, book consultation forms
-    * inform the user with information on common medical conditions
-    * enable user to easily email the pharmacy by including a clickable email link 
+- clearly indicate the purpose of the website to the user
+- improve online presence of pharmacy by creating an interactive website
+- enable the user to contact the pharmacy via for specific reasons e.g. order prescription, book consultation forms
+- enable user to easily email the pharmacy by including a clickable email link 
 
-    I plan to make the site accessable on a range of devices e.g. phone, tablet & PC/Laptop.
+I plan to make the site accessable on a range of devices e.g. phone, tablet & PC/Laptop.
 
 </p>
 
@@ -42,14 +41,15 @@ I have made this simple & easy to navigate to the different pages on the
 <p>
 I have made this easy to navigate between each page with a simple nav bar of four selections:
 	
-    *Home
-    *Prescriptions
-    *Medical Conditions
-    *Book Consultation
+- Home
+- Prescriptions
+- About Us
+- Book Consultation
     
 I have ensured the nav bar is consistant among all of the pages to ensure continuity on the website. I have colored these in contrast to the background to make them stand out. I have also employed a hover function that underlines the link & signifies a call to action for the user
 
-![Nav Bar - Screenshot 2022-07-08 141609](https://user-images.githubusercontent.com/105642587/178016416-1ff7564f-ea2a-41e9-b973-dce60ade26ba.png)
+![Nav Bar - Screenshot 2022-07-08 141609](https://user-images.githubusercontent.com/105642587/178160515-0384c4c3-b300-4006-8c47-1397adbd36f5.png)
+
 
 </p>
 
@@ -67,6 +67,19 @@ I have created a fixed footer & a unfixed footer & will discuss later.
 </p>
 
 <h4>About Us Section</h4>
+
+<p>
+I have written a short paragraph detailing the owner of the pharmacy, their experience & where the pharmacy is located. This is to give the user some insight into the owner of the pharmacy & create trust in using the pharmacy.  I have included a picture of tablets in a compliance aid, i have styled into an oval shape, to convey the shape of a tablet & created a shadow to make it stand out & to viusally appeal to the user.  I have also included a picture of tablets to convey to the user this is a pharmacy website.
+	
+I have created a link in the Nav bar, "About Us" that brings the user to the "About Us" section so they can easily find out information about this website. Obviously this website is a bit more simplistic than a lot of website but I wanted to learn & use how to do this function as it will be a useful function in future website designs.  I feel it adds to the user experience as they can easily navigate to different sections of the website.   
+
+</p>
+
+<h4>Prescriptions</h4>
+
+<p> 
+This section enables the user to fill out a form to request a prescription from the pharmacy. The user must fill out their credentials name, phone number, email address & comments/details. It also allows the user to inform the pharmacy if it is a prescription they retain on file or if it is a new prescription it offers the user the ability to upload a picture of the prescription to the pharmacy.  
+</p>
 
 
 

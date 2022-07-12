@@ -39,7 +39,7 @@ h3 {
     margin-left: 30px;
     margin-top: 20px;
     color:#8DB99D;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
 }
 
 #logo3 {
@@ -162,6 +162,8 @@ h3 {
     position: absolute;
     top: 100px;
     left: 80px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .button:active {
@@ -200,7 +202,8 @@ h3 {
     font-size: 200%;
     padding-top: 30px;
     padding-bottom: 20px;
-    margin-left: 400px;
+    width: 50%;
+    margin: 0 auto;
     color:#ffffff;
 }
 
@@ -268,6 +271,8 @@ footer {
     font-size: 160%;
     color: #3a3a3a;
 }
+
+
 
 .footer {
     position: fixed;
@@ -393,12 +398,13 @@ ul {
         width: 75%;
         height: 45px;
         padding-top: 100px;
-        padding-bottom: 80px;
+        padding-bottom: 40px;
+        padding-left: 5px ;
         font-size: 125%;
     }
 
     #nav {
-        height: 80px;
+        height: 150%;
     }
 
     #landing-image {
@@ -407,6 +413,8 @@ ul {
 
     #buttons {
         padding-top: 0px;
+        width: 80%;
+        margin: 0 auto;
     }
 
     h3 {
@@ -417,31 +425,106 @@ ul {
         height: 850px;
     }
 
+    #about-us {
+        margin: auto 0;
+    }
+
     #blurb1, #blurb2 {
         height: 250px;
         font-size: 100%;
         padding: 25px;
-    
     }
 
     #pinktabs {
         max-width: 80%;
         max-height: 80%;
         height: 350px;
-        width: 425px;
+        width: 450px;
         margin-left: 50px;
    }
 
-   #address {
-        height: 100px;
-       
+   #address ul {
+        height: 50px; 
    }
 }
 
-@media screen and (max-width: 320px) {
-    #logo {
-        width:50%;
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+    
+    #menu {
+        float: right;
+        width: 100%;
+        background-color: #493548;
+        height: 10%;
     }
+
+    .footer {
+        font-size: 75%;
+    }
+
+    #blurb1, #blurb2 {
+        height: 250px;
+        font-size: 75%;
+        padding: 25px;
+    }
+
+    #blurb1 {
+        padding: 25px;
+    }
+
+    #blurb2 {
+        padding: 25px;
+    }
+
+    #address {
+        font-size: 75%;
+    }
+
+    #buttons {
+        top: 5px;
+        left: 5px;
+    }
+
+    .button {
+        font-size: 75%;
+    }
+}
+
+/* For small screens sizes from 800px wide and down */
+@media screen and (max-width: 800px){
+    
+    #pinktabs {
+        max-width: 60%;
+        max-height: 60%;
+        height: 250px;
+        width: 350px;
+        margin-left: 50px;
+   }
+    
+    #blurb1, #blurb2 {
+        height: 250px;
+        font-size: 65%;
+        padding: 25px;
+    }
+
+    .footer {
+        font-size: 65%;
+    }
+
+    #menu {
+        width: 100%;
+        background-color: #493548;
+        font-size: 95%;
+        margin-left: 2px;
+    }
+
+    #buttons {
+        top: 1px;
+        left: 1px;
+    }
+
+    
+
 }
 
 

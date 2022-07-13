@@ -191,7 +191,8 @@ h3 {
 /* about us section giving some info & image of pharmacy to break up the text */
 
 #about-us-container {
-    width: 100% ;
+    width: 100%;
+    height: 800px;
     background-color: #493548;
     background-image: linear-gradient(180deg, #493548,#8DB99D);
     border-top: solid #493548 10px;
@@ -207,11 +208,11 @@ h3 {
     color:#ffffff;
 }
 
-#blurb1, #blurb2 {
+#blurb1 {
     font-family: 'roboto-condensed', Sans-Serif;
     height: 200px;
     width: 50%;
-    padding: 30px;
+    padding: 15px;
     text-align: justify;
     color:#ffffff;
 }
@@ -399,7 +400,7 @@ ul {
         height: 45px;
         padding-top: 100px;
         padding-bottom: 40px;
-        padding-left: 5px ;
+        padding-left: 5px;
         font-size: 125%;
     }
 
@@ -425,22 +426,24 @@ ul {
         height: 850px;
     }
 
-    #about-us {
-        margin: auto 0;
+    #aboutus {
+        margin-left: 500px;
+        width: 100%;
     }
 
-    #blurb1, #blurb2 {
+    #blurb1 {
         height: 250px;
         font-size: 100%;
-        padding: 25px;
+        padding: 15px;
     }
 
     #pinktabs {
         max-width: 80%;
         max-height: 80%;
-        height: 350px;
-        width: 450px;
+        height: 250px;
+        width: 325px;
         margin-left: 50px;
+        margin-top: 500px;
    }
 
    #address ul {
@@ -462,20 +465,13 @@ ul {
         font-size: 75%;
     }
 
-    #blurb1, #blurb2 {
+    #blurb1 {
         height: 250px;
         font-size: 75%;
-        padding: 25px;
+        padding: 15px;
     }
 
-    #blurb1 {
-        padding: 25px;
-    }
-
-    #blurb2 {
-        padding: 25px;
-    }
-
+    
     #address {
         font-size: 75%;
     }
@@ -488,6 +484,39 @@ ul {
     .button {
         font-size: 75%;
     }
+
+    #aboutus {
+        margin-left: 350px;
+        width: 100%;
+    }
+
+    #about-us-container {
+        height: 800px;
+        width: 100%;
+    }
+
+    #pinktabs {
+        max-width: 80%;
+        max-height: 80%;
+        height: 250px;
+        width: 325px;
+        margin-left: 50px;
+        margin-top: 400px;
+   }
+
+   #order-scripts-button {
+        width: 400px; 
+        font-size: 50px;
+        margin-left: 250px;
+        margin-top: 200px;
+}
+
+    #book-consultation-button {
+        width: 400px; 
+        font-size: 50px;
+        margin-left: 250px;
+        margin-top: 200px;
+}
 }
 
 /* For small screens sizes from 800px wide and down */
@@ -501,7 +530,7 @@ ul {
         margin-left: 50px;
    }
     
-    #blurb1, #blurb2 {
+    #blurb1 {
         height: 250px;
         font-size: 65%;
         padding: 25px;
@@ -518,14 +547,127 @@ ul {
         margin-left: 2px;
     }
 
-    #buttons {
-        top: 1px;
-        left: 1px;
+    #order-scripts-button {
+        width: 500px; 
+        font-size: 55px;
+        margin-left: 100px;
+        margin-top: 80px;
+    }
+      
+    #book-consultation-button {
+        width: 500px; 
+        font-size: 55px;
+        margin-left: 100px;
+        margin-top: 80px;
     }
 
-    
+    #landing-image {
+        height: 600px;
+    }
 
+    #landing-image-outer {
+        height: 600px;
+    }
+
+    #aboutus {
+        margin-left: 300px;
+        width: 100%;
+        padding-bottom: 2px;
+    }
 }
+
+/* For smallest screen sizes (phones) from 380px wide and down */
+@media screen and (max-width: 380px){
+
+    #pinktabs {
+        display: none;
+   }
+    
+    #blurb1 {
+        height: 100px;
+        font-size: 75%;
+        padding: 20px;
+        width: 90%;
+    }
+
+    .footer {
+        font-size: 40%;
+    }
+
+    #menu {
+        width: 100%;
+        background-color: #493548;
+        font-size: 75%;
+        margin-left: 2px;
+        font-size: 85%; 
+    }
+
+    #logo {
+        font-size: 155%;
+    }
+
+    #landing-image {
+        height: 500px;
+    }
+
+    #landing-image-outer {
+        height: 500px;
+    }
+
+    #order-scripts-button {
+        background-color: #493548;
+        width: 250px; 
+        border: none;
+        border-radius: 12px;
+        color: #8DB99D;
+        padding: 2px 6px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 30px;
+        margin-left: 50px;
+        margin-top: 100px;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #8DB99D;
+    }
+
+    #book-consultation-button {
+        background-color: #8DB99D;
+        width: 250px; 
+        border: none;
+        border-radius: 12px;
+        color: #493548;
+        padding: 2px 6px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 30px;
+        margin-left: 50px;
+        margin-top: 100px;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #493548;
+    }
+
+    #aboutus {
+        
+    }
+
+    #aboutus {
+        margin-left: 100px;
+        width: 100%;
+        font-size: 150%;
+    }
+
+    #blurb1 {
+        height: 100px;
+        font-size: 75%;
+        width: 90%;
+        margin-left: 1px;
+    }
+}
+
 
 
  

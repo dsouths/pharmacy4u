@@ -608,10 +608,12 @@ ul {
 
     #landing-image {
         height: 500px;
+        width:auto;
     }
 
     #landing-image-outer {
         height: 500px;
+        width:auto;
     }
 
     #order-scripts-button {

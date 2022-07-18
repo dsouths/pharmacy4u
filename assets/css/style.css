@@ -563,10 +563,12 @@ ul {
 
     #landing-image {
         height: 600px;
+        width:auto; 
     }
 
     #landing-image-outer {
         height: 600px;
+        width:auto; 
     }
 
     #aboutus {
@@ -576,8 +578,8 @@ ul {
     }
 }
 
-/* For smallest screen sizes (phones) from 380px wide and down */
-@media screen and (max-width: 380px){
+/* For smallest screen sizes (phones) from 360px wide and down */
+@media screen and (max-width: 360px){
 
     #pinktabs {
         display: none;
@@ -597,23 +599,22 @@ ul {
     #menu {
         width: 100%;
         background-color: #493548;
-        font-size: 75%;
-        margin-left: 2px;
-        font-size: 85%; 
+        font-size: 55%;
+        
     }
 
     #logo {
-        font-size: 155%;
+        font-size: 175%;
     }
 
     #landing-image {
         height: 500px;
-        width:auto;
+        width:100%;
     }
 
     #landing-image-outer {
         height: 500px;
-        width:auto;
+        width:100%;
     }
 
     #order-scripts-button {
@@ -652,9 +653,7 @@ ul {
         box-shadow: 0 9px #493548;
     }
 
-    #aboutus {
-        
-    }
+    
 
     #aboutus {
         margin-left: 100px;
@@ -665,7 +664,7 @@ ul {
     #blurb1 {
         height: 100px;
         font-size: 75%;
-        width: 90%;
+        width: 90px;
         margin-left: 1px;
     }
 }

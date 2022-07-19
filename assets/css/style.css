@@ -203,7 +203,7 @@ h3 {
     font-size: 200%;
     padding-top: 30px;
     padding-bottom: 20px;
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     color:#ffffff;
 }
@@ -211,7 +211,7 @@ h3 {
 #blurb1 {
     font-family: 'roboto-condensed', Sans-Serif;
     height: 200px;
-    width: 50%;
+    width: 100%;
     padding: 15px;
     text-align: justify;
     color:#ffffff;
@@ -395,8 +395,7 @@ ul {
 @media screen and (max-width: 1200px) {
    
     #menu {
-        clear: left;
-        width: 75%;
+        clear: left; 
         height: 45px;
         padding-top: 100px;
         padding-bottom: 40px;
@@ -455,7 +454,7 @@ ul {
 @media screen and (max-width: 950px) {
     
     #menu {
-        float: right;
+        
         width: 100%;
         background-color: #493548;
         height: 10%;
@@ -563,12 +562,12 @@ ul {
 
     #landing-image {
         height: 600px;
-        width:auto; 
+        width: 100%;
     }
 
     #landing-image-outer {
         height: 600px;
-        width:auto; 
+        width: 100%;
     }
 
     #aboutus {
@@ -578,95 +577,64 @@ ul {
     }
 }
 
-/* For smallest screen sizes (phones) from 360px wide and down */
-@media screen and (max-width: 360px){
+/* For smallest screen sizes (phones) from 384px wide and down */
+@media screen and (max-width: 384px){
 
     #pinktabs {
-        display: none;
+        max-width: 60%;
+        max-height: 60%;
+        height: 250px;
+        width: 350px;
+        margin-left: 50px;
    }
     
     #blurb1 {
-        height: 100px;
-        font-size: 75%;
-        padding: 20px;
-        width: 90%;
+        height: 250px;
+        font-size: 65%;
+        padding: 25px;
     }
 
     .footer {
-        font-size: 40%;
+        font-size: 85%;
     }
 
     #menu {
         width: 100%;
         background-color: #493548;
-        font-size: 55%;
-        
-    }
-
-    #logo {
-        font-size: 175%;
-    }
-
-    #landing-image {
-        height: 500px;
-        width:100%;
-    }
-
-    #landing-image-outer {
-        height: 500px;
-        width:100%;
+        font-size: 95%;
+        margin-left: 2px;
     }
 
     #order-scripts-button {
-        background-color: #493548;
-        width: 250px; 
-        border: none;
-        border-radius: 12px;
-        color: #8DB99D;
-        padding: 2px 6px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 30px;
-        margin-left: 50px;
-        margin-top: 100px;
-        border: none;
-        border-radius: 15px;
-        box-shadow: 0 9px #8DB99D;
+        width: 500px; 
+        font-size: 55px;
+        margin-left: 100px;
+        margin-top: 80px;
     }
-
+      
     #book-consultation-button {
-        background-color: #8DB99D;
-        width: 250px; 
-        border: none;
-        border-radius: 12px;
-        color: #493548;
-        padding: 2px 6px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 30px;
-        margin-left: 50px;
-        margin-top: 100px;
-        border: none;
-        border-radius: 15px;
-        box-shadow: 0 9px #493548;
+        width: 500px; 
+        font-size: 55px;
+        margin-left: 100px;
+        margin-top: 80px;
     }
 
-    
+    #landing-image {
+        height: 600px;
+        width: 100%;
+    }
+
+    #landing-image-outer {
+        height: 600px;
+        width: 100%;
+    }
 
     #aboutus {
-        margin-left: 100px;
+        margin-left: 300px;
         width: 100%;
-        font-size: 150%;
+        padding-bottom: 2px;
     }
 
-    #blurb1 {
-        height: 100px;
-        font-size: 75%;
-        width: 90px;
-        margin-left: 1px;
-    }
 }
 
 

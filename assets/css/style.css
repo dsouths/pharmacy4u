@@ -239,7 +239,7 @@ h3 {
     color: #ffffff;
     bottom: 0;
     float: left;
-    padding-left: 20px;
+    margin-left: 10px;
 }
 
 .opening-hours ul {
@@ -249,7 +249,7 @@ h3 {
 
 #contact-details {
     float:right;
-    padding-right: 20px;
+    margin-right: 20px;
   }
 
 footer { 

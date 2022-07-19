@@ -249,7 +249,7 @@ h3 {
 
 #contact-details {
     float:right;
-    margin-right: 20px;
+    
   }
 
 footer { 
@@ -617,6 +617,9 @@ ul {
         margin-left: 2px;
     }
 
+
+    /* redcuing size of order scripts section for small screens*/
+
     #order-scripts-button {
         width: 500px; 
         font-size: 55px;
@@ -647,6 +650,55 @@ ul {
         padding-bottom: 2px;
     }
 
+
+    #prescription-form-section {
+        Width: 450px;
+        height: 700px;
+        padding: 25px;
+        color:#8DB99D;
+        background-color: #493548BF;
+        top: 30px;
+        left: 100px;
+        position: absolute;
+    
+    }
+    
+    .order-prescription-form > h2 {
+        color:#8DB99D;
+        margin-bottom: 20px;
+    }
+    
+    .text-input {
+        background: transparent;
+        color: #fafafa;
+        width: 100%;
+        height: 25px;
+        margin: 5px 0 20px 0;
+        border: 1px solid #fafafa;
+        border-radius: 2px;
+    }
+    
+    .text-input:hover {
+        border-color: #8DB99D;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    .submit-button {
+        border-radius: 5px;
+        padding: 10px 20px 10px 20px;
+        text-align: center;
+        font-size: 175%;
+        background-color: #8DB99D;
+        color: #493548;
+        float: right;
+        border: solid;
+        border-radius: 15px;
+        box-shadow: 0 9px #493548;
+        margin-top: -60px;
+    }
 }
 
 

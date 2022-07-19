@@ -8,8 +8,6 @@
 
 header {
     background-color: #493548;
-    width: 100%;
-    max-width: 1920px;
 }
 
 body {
@@ -58,8 +56,6 @@ h3 {
     letter-spacing: 3px;
     padding-top: 40px;
     padding-bottom: 60px;
-    display: -ms-flexbox;
-	
 }
 
 #menu li {
@@ -148,6 +144,7 @@ h3 {
 #order-scripts-button {
     background-color: #493548; 
     border: none;
+    border-radius: 12px;
     color: #8DB99D;
     padding: 15px 32px;
     text-align: center;
@@ -156,6 +153,7 @@ h3 {
     font-size: 50px;
     margin-left: 200px ;
     margin-top: 200px;
+    border: none;
     border-radius: 15px;
     box-shadow: 0 9px #8DB99D;
 }
@@ -184,6 +182,8 @@ h3 {
     font-size: 50px;
     margin-left: 200px ;
     margin-top: 200px;
+    border: none;
+    border-radius: 15px;
     box-shadow: 0 9px #493548;;
 
 }
@@ -203,15 +203,15 @@ h3 {
     font-size: 200%;
     padding-top: 30px;
     padding-bottom: 20px;
-    width: 100%;
-    padding-left: 50px ;
+    width: 50%;
+    margin: 0 auto;
     color:#ffffff;
 }
 
 #blurb1 {
     font-family: 'roboto-condensed', Sans-Serif;
     height: 200px;
-    width: 100%;
+    width: 50%;
     padding: 15px;
     text-align: justify;
     color:#ffffff;
@@ -239,7 +239,7 @@ h3 {
     color: #ffffff;
     bottom: 0;
     float: left;
-    margin-left: 10px;
+    padding-left: 20px;
 }
 
 .opening-hours ul {
@@ -249,15 +249,13 @@ h3 {
 
 #contact-details {
     float:right;
-    
+    padding-right: 20px;
   }
 
 footer { 
     height: 80px;
     background-color: #8DB99D;
     padding-top: 10px;
-    max-width: 1920px;
-    width: 100%;
 }
 
 /* non-fixed footer for social media links */
@@ -397,7 +395,8 @@ ul {
 @media screen and (max-width: 1200px) {
    
     #menu {
-        clear: left; 
+        clear: left;
+        width: 75%;
         height: 45px;
         padding-top: 100px;
         padding-bottom: 40px;
@@ -407,7 +406,6 @@ ul {
 
     #nav {
         height: 150%;
-        width: 100%;
     }
 
     #landing-image {
@@ -448,7 +446,7 @@ ul {
         margin-top: 500px;
    }
 
-    #address ul {
+   #address ul {
         height: 50px; 
    }
 }
@@ -457,19 +455,10 @@ ul {
 @media screen and (max-width: 950px) {
     
     #menu {
+        float: right;
         width: 100%;
         background-color: #493548;
         height: 10%;
-        }
-
-    #landing-image-outer {
-        height: 600px;
-        width: 100%;
-    }
-
-    #landing-image {
-        height: 600px;
-        width: 100%;
     }
 
     .footer {
@@ -513,21 +502,21 @@ ul {
         width: 325px;
         margin-left: 50px;
         margin-top: 400px;
-    }
+   }
 
    #order-scripts-button {
         width: 400px; 
         font-size: 50px;
         margin-left: 250px;
         margin-top: 200px;
-    }
+}
 
     #book-consultation-button {
         width: 400px; 
         font-size: 50px;
         margin-left: 250px;
         margin-top: 200px;
-    }
+}
 }
 
 /* For small screens sizes from 800px wide and down */
@@ -574,12 +563,12 @@ ul {
 
     #landing-image {
         height: 600px;
-        width: 100%;
+        width:auto; 
     }
 
     #landing-image-outer {
         height: 600px;
-        width: 100%;
+        width:auto; 
     }
 
     #aboutus {
@@ -593,112 +582,92 @@ ul {
 @media screen and (max-width: 384px){
 
     #pinktabs {
-        max-width: 60%;
-        max-height: 60%;
-        height: 150px;
-        width: 250px;
-        margin-left: 10px;
+        display: none;
    }
     
     #blurb1 {
-        height: 250px;
-        font-size: 65%;
-        padding: 25px;
+        display: none;
+        
     }
 
     .footer {
-        font-size: 85%;
+        font-size: 25%;
     }
 
     #menu {
-        width: 100%;
         background-color: #493548;
-        font-size: 95%;
-        margin-left: 2px;
+        font-size: 40%;
+        width: 384px;
+        padding-left: 50px;
+
     }
 
-
-    /* redcuing size of order scripts section for small screens*/
-
-    #order-scripts-button {
-        width: 500px; 
-        font-size: 55px;
+    #logo {
+        font-size: 155%;
         margin-left: 100px;
-        margin-top: 80px;
-    }
-      
-    #book-consultation-button {
-        width: 500px; 
-        font-size: 55px;
-        margin-left: 100px;
-        margin-top: 80px;
     }
 
     #landing-image {
-        height: 600px;
-        width: 100%;
+        height: 500px;
+        width: 384px;
     }
 
     #landing-image-outer {
-        height: 600px;
-        width: 100%;
+        height: 500px;
+        width: 384px;
+    }
+
+    h3 {
+        width: 384px;
+        padding-left: 50px;
+    }
+
+    #order-scripts-button {
+        background-color: #493548;
+        width: 250px; 
+        border: none;
+        border-radius: 12px;
+        color: #8DB99D;
+        padding: 2px 6px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 30px;
+        margin-left: 50px;
+        margin-top: 100px;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #8DB99D;
+    }
+
+    #book-consultation-button {
+        background-color: #8DB99D;
+        width: 250px; 
+        border: none;
+        border-radius: 12px;
+        color: #493548;
+        padding: 2px 6px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 30px;
+        margin-left: 50px;
+        margin-top: 100px;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #493548;
     }
 
     #aboutus {
-        margin-left: 300px;
-        width: 100%;
-        padding-bottom: 2px;
+        
+        display: none;
     }
 
+    #about-us-container {
+        display: none;
+    }
 
-    #prescription-form-section {
-        Width: 450px;
-        height: 700px;
-        padding: 25px;
-        color:#8DB99D;
-        background-color: #493548BF;
-        top: 30px;
-        left: 100px;
-        position: absolute;
-    
-    }
-    
-    .order-prescription-form > h2 {
-        color:#8DB99D;
-        margin-bottom: 20px;
-    }
-    
-    .text-input {
-        background: transparent;
-        color: #fafafa;
-        width: 100%;
-        height: 25px;
-        margin: 5px 0 20px 0;
-        border: 1px solid #fafafa;
-        border-radius: 2px;
-    }
-    
-    .text-input:hover {
-        border-color: #8DB99D;
-    }
-    
-    ul {
-        list-style-type: none;
-    }
-    
-    .submit-button {
-        border-radius: 5px;
-        padding: 10px 20px 10px 20px;
-        text-align: center;
-        font-size: 175%;
-        background-color: #8DB99D;
-        color: #493548;
-        float: right;
-        border: solid;
-        border-radius: 15px;
-        box-shadow: 0 9px #493548;
-        margin-top: -60px;
-    }
+ 
 }
 
 

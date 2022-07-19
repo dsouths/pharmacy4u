@@ -8,6 +8,8 @@
 
 header {
     background-color: #493548;
+    width: 100%;
+    max-width: 1920px;
 }
 
 body {
@@ -202,7 +204,7 @@ h3 {
     padding-top: 30px;
     padding-bottom: 20px;
     width: 100%;
-    padding-left: ;
+    padding-left: 50px ;
     color:#ffffff;
 }
 
@@ -254,6 +256,8 @@ footer {
     height: 80px;
     background-color: #8DB99D;
     padding-top: 10px;
+    max-width: 1920px;
+    width: 100%;
 }
 
 /* non-fixed footer for social media links */

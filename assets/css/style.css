@@ -23,6 +23,7 @@ h1 {
     color: #8DB99D;
     line-height: 50px;
     position: absolute;
+    box-sizing: border-box;
 }
 
 h3 {
@@ -31,6 +32,7 @@ h3 {
     color:#493548;
     font-family: 'italianno', sans-serif;
     font-size: 150%;
+    box-sizing: border-box;
 }
 
 #logo {
@@ -40,6 +42,7 @@ h3 {
     margin-top: 20px;
     color:#8DB99D;
     padding-bottom: 10px;
+    box-sizing: border-box;
 }
 
 #logo3 {
@@ -56,6 +59,7 @@ h3 {
     letter-spacing: 3px;
     padding-top: 40px;
     padding-bottom: 60px;
+    box-sizing: border-box;
 }
 
 #menu li {
@@ -80,6 +84,7 @@ h3 {
     width: 100%;
     overflow: hidden;
     position: relative;
+    box-sizing: border-box;
   }
 
 #landing-image {
@@ -88,7 +93,8 @@ h3 {
     background:url("../images/adam-niescioruk-hWzrJsS8gwI-unsplash.jpg") no-repeat center center;
     animation-name: zoom;
     animation-duration: 2.5s;
-    animation-fill-mode:forwards;   
+    animation-fill-mode:forwards;  
+    box-sizing: border-box; 
 }
 
 #prescriptions-background-outer {
@@ -196,6 +202,7 @@ h3 {
     background-color: #493548;
     background-image: linear-gradient(180deg, #493548,#8DB99D);
     border-top: solid #493548 10px;
+    box-sizing: border-box;
 }
 
 #aboutus {
@@ -206,6 +213,7 @@ h3 {
     width: 50%;
     margin: 0 auto;
     color:#ffffff;
+    box-sizing: border-box;
 }
 
 #blurb1 {
@@ -270,7 +278,7 @@ footer {
 }
 
 .social-networks i{
-    font-size: 160%;
+    font-size: 120%;
     color: #3a3a3a;
 }
 

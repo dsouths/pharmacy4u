@@ -258,17 +258,19 @@ h3 {
   }
 
 footer { 
-    height: 80px;
+    height: 40px;
     background-color: #8DB99D;
-    padding-top: 10px;
     box-sizing: border-box;
    
 }
 
 /* non-fixed footer for social media links */
 .social-networks{
+    height: 50px;
+    padding-top: 25px;
     text-align: center;
     letter-spacing: 10px;
+    background-color: #8DB99D;
 }
 
 .social-networks li{
@@ -300,6 +302,10 @@ footer {
     color:#8DB99D;
     display: inline-flex;
     font-size: 110%;
+  }
+
+  #location-outer {
+    background-color: #8DB99D;
   }
 
 
@@ -468,10 +474,7 @@ ul {
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
-    .footer {
-        display: none;
-    }
-
+    
 
 }
 

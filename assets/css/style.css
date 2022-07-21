@@ -497,6 +497,71 @@ ul {
         font-size: 35px;
     }
     
+    #prescription-form-section {
+        Width: 300px;
+        height: 650px;
+        padding: 20px;
+        color:#8DB99D;
+        background-color: #493548BF;
+        top: 30px;
+        left: 100px;
+        position: absolute;
+        font-size: 20px;
+    }
+
+    .submit-button {
+        padding: 10px 20px 10px 20px;
+        text-align: center;
+        font-size: 100%;
+        background-color: #8DB99D;
+        color: #493548;
+        float: right;
+        border: solid;
+        border-radius: 15px;
+        box-shadow: 0 9px #493548;
+        margin-top: -20px;
+    }
+
+    #book-consultation-section {
+        Width: 300px;
+        height: 550px;
+        padding: 20px;
+        color:#8DB99D;
+        background-color: #493548BF;
+        top: 30px;
+        left: 100px;
+        position: absolute;
+        font-size: 20px;
+    }
+
+    .submit-button {
+        padding: 10px 20px 10px 20px;
+        text-align: center;
+        font-size: 100%;
+        background-color: #8DB99D;
+        color: #493548;
+        float: right;
+        border: solid;
+        border-radius: 15px;
+        box-shadow: 0 9px #493548;
+        margin-top: -20px;
+    }
+
+    #pinktabs {
+        display: none;
+    }
+
+    #blurb1 {
+        height: 250px;
+        font-size: 25px;
+        padding: 2px;
+        text-align: center;
+    }
+
+
+    #map {
+        width: 350px;
+       }
 
 }
 

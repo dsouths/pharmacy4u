@@ -39,9 +39,7 @@ h3 {
     padding-top: 20px;
     padding-bottom: 10px;
     padding-left: 30px;
-    color:#8DB99D;
-    
-    
+    color:#8DB99D;  
 }
 
 #logo3 {
@@ -155,7 +153,7 @@ h3 {
     text-decoration: none;
     display: inline-block;
     font-size: 50px;
-    margin-left: 200px ;
+    margin-left: 200px;
     margin-top: 200px;
     border: none;
     border-radius: 15px;
@@ -402,9 +400,9 @@ ul {
 
 /* Media queries */
 
-/* For large to medium screens sizes from 950px to 1200px wide */
 
-@media screen and (min-width: 800px) and (max-width: 1200px) {
+/*for larger and medium screens size from 1200px and down*/
+@media screen and (max-width: 1024px) and (min-width: 769px) {
    
     #menu {
         width: 75%;
@@ -435,15 +433,7 @@ ul {
        font-size: 100%;
     }
     
-    #about-us-container {
-        height: 850px;
-    }
-
-    #h2aboutus {
-        margin-left: 100px;
-        padding: 10px;
-      
-    }
+  
 
     #blurb1 {
         height: 250px;
@@ -467,6 +457,10 @@ ul {
    .footer {
        font-size: 65%;
    }
+
+   #map {
+    width: 75%;
+   }
 }
 
 
@@ -474,6 +468,88 @@ ul {
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
+    #menu {
+        height: 50px;
+        padding-top: 100px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        font-size: 85%;
+    }
+
+    .footer {
+        font-size: 15px;
+    }
+
+    #buttons {
+        padding-top: 0px;
+        top: 5px;
+        left: 5px;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 10px;
+    }
+
+    #order-scripts-button {
+        font-size: 35px;
+    }
+
+    #book-consultation-button {
+        font-size: 35px;
+    }
+    
+
+}
+
+/* for screens that are 480px wide or less */
+@media screen and (max-width: 480px) and (min-width: 320px) {
+
+    #menu {
+        height: 60px;
+        padding-top: 100px;
+        padding-bottom: 15px;
+        padding-left: 5px;
+        font-size: 65%;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    #order-scripts-button {
+        font-size: 20px;
+        width: 150px;
+        margin-left: 5px;
+        margin-top: 100px;
+    }
+
+    #book-consultation-button {
+        font-size: 20px;
+        width: 150px;
+        margin-left: 5px;
+        margin-top: 100px;
+    }
+
+    #buttons {
+        padding-top: 0px;
+        top: 25px;
+        left: 25px;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 10px;
+    }
+
+    .footer {
+        font-size: 12.5px;
+    }
+
+    #logo {
+        float: left;
+        font-size: 200%;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        color:#8DB99D;  
+    }
     
 
 }

@@ -117,7 +117,7 @@ h3 {
 }
 
 #book-consultation-background {
-    height:850px;
+    height:950px;
     width: 100%;
     background:url("../images/towfiqu-barbhuiya-hn2hQoALBCk-unsplash.jpg") no-repeat center center;
     animation-name: zoom;
@@ -128,10 +128,10 @@ h3 {
 /* zoom feature of background images*/
 @keyframes zoom {
     from{
-        transform: scale(1.10);
+        transform: scale(1.30);
     }
     to{
-        transform: scale(1.20);
+        transform: scale(1.40);
     }
 }
 
@@ -144,6 +144,7 @@ h3 {
 /*landing page LARGE order prescriptions & book consultation buttons*/
 
 #order-scripts-button {
+    width: 35%;
     background-color: #493548; 
     border: none;
     border-radius: 12px;
@@ -151,13 +152,13 @@ h3 {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
+    float: none;
     font-size: 50px;
-    margin-left: 200px;
-    margin-top: 200px;
-    border: none;
-    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: 100px;
     box-shadow: 0 9px #8DB99D;
+   
 }
 
 #buttons {
@@ -173,6 +174,7 @@ h3 {
 }
 
 #book-consultation-button {
+    width: 35%;
     background-color: #8DB99Dbf; 
     border: none;
     border-radius: 10px;
@@ -180,13 +182,11 @@ h3 {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-flex;
+    display: block;
     font-size: 50px;
-    margin-left: 200px ;
-    margin-top: 200px;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #493548;;
+    margin-left: 100px ;
+    margin-top: 100px;
+    box-shadow: 0 9px #493548;
 
 }
 
@@ -223,18 +223,6 @@ h3 {
     display: inline-block;
     float: right;
     
-}
-
-#pinktabs{
-    height: 45%;
-    border-radius: 50%;
-    position: flex;
-    float: right;
-    right: 500px;
-    border: solid #8DB99D 4px;
-    box-shadow: #26394d 0px 20px 30px -10px;
-    display: inline-block;
-    opacity: 0.5;
 }
 
 
@@ -380,7 +368,7 @@ ul {
     display: flex;
 }
 
-/* book consultaion input form */
+/* book consultation input form */
 
 #book-consultation-section {
     
@@ -426,16 +414,16 @@ ul {
 }
 
 
-/*for larger and medium screens size from 1024px and down*/
+/*for larger and medium screens size from 1024px to 769px*/
 @media screen and (max-width: 1024px) and (min-width: 769px) {
    
     #menu {
-        width: 75%;
+        width: 100%;
         height: 25px;
         padding-top: 100px;
         padding-bottom: 40px;
         padding-left: 5px;
-        font-size: 95%;
+        font-size: 85%;
     }
 
     #nav {
@@ -446,12 +434,14 @@ ul {
         background-size: cover;
     }
 
-    #buttons {
-        padding-top: 0px;
-        top: 5px;
-        left: 5px;
-        width: 80%;
-        margin: 0 auto;
+    #order-scripts-button {
+        font-size: 125%;
+       
+    }
+
+    #book-consultation-button {
+        font-size: 125%;
+    
     }
 
     h3 {
@@ -464,14 +454,6 @@ ul {
         width: 40%;
     }
 
-    #pinktabs {
-        max-width: 80%;
-        max-height: 80%;
-        height: 200px;
-        width: 300px;
-        margin-left: 50px;
-        margin-top: 500px;
-   }
 
    #address ul {
         height: 50px; 
@@ -494,7 +476,7 @@ ul {
         padding-top: 100px;
         padding-bottom: 10px;
         padding-left: 5px;
-        font-size: 85%;
+        font-size: 60%;
     }
 
     .footer {
@@ -515,7 +497,7 @@ ul {
         padding-top: 0px;
         top: 5px;
         left: 5px;
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
         font-size: 10px;
     }
@@ -529,7 +511,6 @@ ul {
     #book-consultation-button {
         font-size: 250%;
         width: 50%;
-       
     }
     
     #prescription-form-section {
@@ -558,7 +539,7 @@ ul {
     }
 
     #book-consultation-section {
-        Width: 300px;
+        width: 300px;
         height: 550px;
         padding: 20px;
         color:#8DB99D;
@@ -591,15 +572,17 @@ ul {
 
 }
 
-/* for screens that are 480px wide or less */
+/* for screens that are 480px to 320px */
 @media screen and (max-width: 480px) and (min-width: 320px) {
 
     #menu {
-        height: 60px;
+        height: 15%;
         padding-top: 100px;
         padding-bottom: 15px;
-        padding-left: 5px;
-        font-size: 65%;
+        padding-left: 7.5%;
+        font-size: 60%;
+        flex-direction: column;
+        display: flex;
     }
 
     h3 {
@@ -671,7 +654,7 @@ ul {
 
     #book-consultation-section {
         width: 70%;
-        height: 75%;
+        height: 65%;
         padding: 15px;
         font-size: 20px;
         left: 20px;

@@ -197,6 +197,7 @@ h3 {
     background:url("../images/pexels-karolina-grabowska-4210656.jpg") no-repeat center center;
     zoom: 125%;
     height: 750px;
+    
 }
 
 #h2aboutus {
@@ -672,7 +673,7 @@ ul {
 
     #book-consultation-section {
         width: 70%;
-        height: 90%;
+        height: 65%;
         padding: 15px;
         font-size: 20px;
         left: 20px;

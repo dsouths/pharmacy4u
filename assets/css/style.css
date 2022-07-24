@@ -480,6 +480,16 @@ ul {
         font-size: 15px;
     }
 
+    #landing-image {
+        width: 100%;
+        zoom: 120%;
+        background:url("../images/pexels-anna-shvets-3683102.jpg") no-repeat center center;
+    }
+
+    .opening-hours {
+        display: none;
+    }
+
     #buttons {
         padding-top: 0px;
         top: 5px;
@@ -534,7 +544,7 @@ ul {
         font-size: 20px;
     }
 
-    .submit-button {
+    .book-button {
         padding: 10px 20px 10px 20px;
         text-align: center;
         font-size: 100%;
@@ -558,10 +568,11 @@ ul {
         text-align: center;
     }
 
-
     #map {
         width: 350px;
        }
+
+
 
 }
 
@@ -580,17 +591,24 @@ ul {
         font-size: 20px;
     }
 
+    #landing-image {
+        width: 100%;
+        background:url("../images/pexels-anna-shvets-3683102.jpg") no-repeat center center;
+    }
+
+
+
     #order-scripts-button {
         font-size: 20px;
-        width: 150px;
-        margin-left: 5px;
+        width: 70%;
+        margin-left: 10px;
         margin-top: 100px;
     }
 
     #book-consultation-button {
         font-size: 20px;
-        width: 150px;
-        margin-left: 5px;
+        width: 70%;
+        margin-left: 10px;
         margin-top: 100px;
     }
 
@@ -614,6 +632,43 @@ ul {
         padding-bottom: 10px;
         padding-left: 30px;
         color:#8DB99D;  
+    }
+
+    #prescription-form-section {
+        width: 50%;
+        height: 600px;
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    .submit-button {
+        padding: 10px 20px 10px 20px;
+        text-align: center;
+        font-size: 100%;
+        border: solid;
+        box-shadow: 0 5px #493548;
+        margin-top: 10px;
+    }
+
+    #book-consultation-section {
+        width: 70%;
+        height: 90%;
+        padding: 15px;
+        font-size: 20px;
+        left: 20px;
+    }
+
+    .book-button {
+        padding: 10px 20px 10px 20px;
+        text-align: center;
+        font-size: 100%;
+        background-color: #8DB99D;
+        color: #493548;
+        float: right;
+        border: solid;
+        border-radius: 15px;
+        box-shadow: 0 9px #493548;
+        margin-top: -20px;
     }
     
 

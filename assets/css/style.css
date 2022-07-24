@@ -194,30 +194,48 @@ h3 {
 
 #about-us-container {
     
-    height: 800px;
-    background-color: #493548;
-    background-image: linear-gradient(180deg, #493548,#8DB99D);
-    border-top: solid #493548 10px;   
+    background:url("../images/pexels-karolina-grabowska-4210656.jpg") no-repeat center center;
+    zoom: 125%;
+    height: 750px;
 }
 
 #h2aboutus {
     font-family: 'roboto-condensed', Sans-Serif;
-    font-size: 200%;
+    font-size: 250%;
     padding-top: 30px;
     padding-bottom: 20px;
-    padding-left: 500px;
-    color:#ffffff;    
+    color:#ffffff;   
+    background-color: #493548;
+    text-align: center; 
 }
 
 #blurb1 {
     font-family: 'roboto-condensed', Sans-Serif;
-    height: 200px;
-    width: 50%;
-    padding: 15px;
+    font-size: 75%;
+    font-weight:bold;
+    height: 100%;
+    width: 35%;
+    padding: 5%;
     text-align: justify;
-    color:#ffffff;
+    color:#493548;
+    padding-left: 5%;
+    display: inline-block;
+    float: right;
     
 }
+
+#pinktabs{
+    height: 45%;
+    border-radius: 50%;
+    position: flex;
+    float: right;
+    right: 500px;
+    border: solid #8DB99D 4px;
+    box-shadow: #26394d 0px 20px 30px -10px;
+    display: inline-block;
+    opacity: 0.5;
+}
+
 
 #address {
     color: #ffffff;
@@ -226,15 +244,7 @@ h3 {
     text-size-adjust: 150%; 
 }
 
-#pinktabs{
-    height: 45%;
-    border-radius: 50%;
-    position: flex;
-    float: right;
-    margin-right: 60px;
-    border: solid #8DB99D 4px;
-    box-shadow: #26394d 0px 20px 30px -10px;
-}
+
 
 /* fixed footer for opening hours & contact details */
 .opening-hours {
@@ -302,9 +312,7 @@ footer {
     font-size: 110%;
   }
 
-  #location-outer {
-    background-color: #8DB99D;
-  }
+  
 
 
 /* prescription order form*/
@@ -400,8 +408,24 @@ ul {
 
 /* Media queries */
 
+/*for very large  screens size from 1024px and up to 1200px*/
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    
+    #menu {
+        width: 75%;
+        height: 30px;
+        padding-top: 100px;
+        padding-bottom: 40px;
+        padding-left: 5px;
+    }
 
-/*for larger and medium screens size from 1200px and down*/
+    #blurb1 {
+        font-size: 75%;
+    }
+}
+
+
+/*for larger and medium screens size from 1024px and down*/
 @media screen and (max-width: 1024px) and (min-width: 769px) {
    
     #menu {
@@ -433,12 +457,10 @@ ul {
        font-size: 100%;
     }
     
-  
-
     #blurb1 {
         height: 250px;
-        font-size: 90%;
-        padding: 15px;
+        font-size: 70%; 
+        width: 40%;
     }
 
     #pinktabs {
@@ -458,9 +480,7 @@ ul {
        font-size: 65%;
    }
 
-   #map {
-    width: 75%;
-   }
+
 }
 
 
@@ -500,11 +520,15 @@ ul {
     }
 
     #order-scripts-button {
-        font-size: 35px;
+        font-size: 250%;
+        width: 50%;
+       
     }
 
     #book-consultation-button {
-        font-size: 35px;
+        font-size: 250%;
+        width: 50%;
+       
     }
     
     #prescription-form-section {
@@ -557,21 +581,13 @@ ul {
         margin-top: -20px;
     }
 
-    #pinktabs {
-        display: none;
-    }
+
 
     #blurb1 {
         height: 250px;
-        font-size: 25px;
-        padding: 2px;
-        text-align: center;
+        font-size: 65%; 
+        width: 60%;
     }
-
-    #map {
-        width: 350px;
-       }
-
 
 
 }
@@ -595,8 +611,6 @@ ul {
         width: 100%;
         background:url("../images/pexels-anna-shvets-3683102.jpg") no-repeat center center;
     }
-
-
 
     #order-scripts-button {
         font-size: 20px;
@@ -624,6 +638,12 @@ ul {
     .footer {
         font-size: 12.5px;
     }
+
+    .opening-hours {
+        display: none;
+    }
+    
+    
 
     #logo {
         float: left;
@@ -671,6 +691,11 @@ ul {
         margin-top: -20px;
     }
     
+    #blurb1 {
+        height: 250px;
+        font-size: 60%; 
+        width: 80%;
+    }
 
 }
 

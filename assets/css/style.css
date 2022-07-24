@@ -283,7 +283,7 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 99%;
     background-color: #493548;
     color: white;
     text-align: center;
@@ -436,12 +436,10 @@ ul {
 
     #order-scripts-button {
         font-size: 125%;
-       
     }
 
     #book-consultation-button {
         font-size: 125%;
-    
     }
 
     h3 {
@@ -486,8 +484,9 @@ ul {
     #landing-image {
         width: 100%;
         zoom: 120%;
-        background:url("../images/pexels-anna-shvets-3683102.jpg") no-repeat center center;
+        background:url("../images/pexels-anna-shvets-3683102.jpg") no-repeat center center; 
     }
+
 
     .opening-hours {
         display: none;

@@ -196,8 +196,7 @@ h3 {
     
     background:url("../images/pexels-karolina-grabowska-4210656.jpg") no-repeat center center;
     zoom: 125%;
-    height: 750px;
-    
+    height: 675px;
 }
 
 #h2aboutus {
@@ -617,8 +616,6 @@ ul {
     .opening-hours {
         display: none;
     }
-    
-    
 
     #logo {
         float: left;

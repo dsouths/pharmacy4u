@@ -57,6 +57,7 @@ h3 {
     padding-top: 1.5em;
     padding-bottom: 2.5em;
     width: 100%;
+    display: inline-block;
    
 }
 
@@ -574,7 +575,6 @@ ul {
         height: 15%;
         padding-top: 100px;
         padding-bottom: 15px;
-       
         font-size: 80%;
         flex-direction: column;
         display: flex;
@@ -591,27 +591,30 @@ ul {
 
     #order-scripts-button {
         font-size: 2.5em;
+        height: 2.5em;
         width: 70%;
         align-items: center;
+       
     }
 
     #book-consultation-button {
         font-size: 2.5em;
+        height: 2.5em;
         width: 70%;
         align-items: center;
     }
 
     #buttons {
-        padding-top: 0px;
-        top: 25px;
-        left: 25px;
+        padding-top: 0;
+        top: 2.5em;
+        left: 1em;
         width: 80%;
         margin: 0 auto;
-        font-size: 10px;
+        font-size: 0.5em;
     }
 
     .footer {
-        font-size: 40%;
+        font-size: 37.5%;
         max-width: 480px;
     }
 

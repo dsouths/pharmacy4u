@@ -10,7 +10,7 @@ header {
 
 body {
     Font-Family: 'Roboto Condensed', Sans-Serif;
-    Font-Size: 25px;  
+    Font-Size: 1.5em;  
     color: #3a3a3a;
 }
 
@@ -35,10 +35,10 @@ h3 {
 
 #logo {
     float: left;
-    font-size: 280%;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    padding-left: 30px;
+    font-size: 3em;
+    padding-top: 0.25em;
+    padding-bottom: 0.125em;
+    padding-left: 0.25em;
     color:#8DB99D;  
 }
 
@@ -53,9 +53,9 @@ h3 {
     font-family: 'Cabin', Sans-Serif;
     color:#8DB99D;
     font-size: 100%;
-    letter-spacing: 3px;
-    padding-top: 40px;
-    padding-bottom: 60px;
+    letter-spacing: 0.125em;
+    padding-top: 1.5em;
+    padding-bottom: 2.5em;
     width: 100%;
    
 }
@@ -63,7 +63,7 @@ h3 {
 #menu li {
     float: right;
     list-style-type: none;
-    padding-right: 30px;
+    padding-right: 0.5em;
 }
 
 #menu a {
@@ -78,14 +78,14 @@ h3 {
 /* background images for each page*/
 
 #landing-image-outer {
-    height:850px;
+    height:30em;
     width: 100%;
     overflow: hidden;
     position: relative;
   }
 
 #landing-image {
-    height:850px;
+    height:30em;
     width: 100%;
     background:url("../images/adam-niescioruk-hWzrJsS8gwI-unsplash.jpg") no-repeat center center;
     animation-name: zoom;
@@ -94,14 +94,14 @@ h3 {
 }
 
 #prescriptions-background-outer {
-    height:850px;
+    height:35em;
     width: 100%;
     overflow: hidden;
     position: relative;
   }
 
 #prescriptions-background {
-    height:850px;
+    height:35em;
     width: 100%;
     background:url("../images/leohoho-DRchVK5apjw-unsplash.jpg") no-repeat center center;
     animation-name: zoom;
@@ -110,14 +110,14 @@ h3 {
 }
 
 #book-consultation-outer {
-    height:850px;
+    height:35em;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #book-consultation-background {
-    height:950px;
+    height:35em;
     width: 100%;
     background:url("../images/towfiqu-barbhuiya-hn2hQoALBCk-unsplash.jpg") no-repeat center center;
     animation-name: zoom;
@@ -147,18 +147,17 @@ h3 {
     width: 35%;
     background-color: #493548; 
     border: none;
-    border-radius: 12px;
+    border-radius: 0.5em;
     color: #8DB99D;
-    padding: 15px 32px;
+    padding: 0.5em 0.75em;
     text-align: center;
     text-decoration: none;
     display: block;
     float: none;
-    font-size: 50px;
-    margin-left: 100px;
-    margin-top: 100px;
-    box-shadow: 0 9px #8DB99D;
-   
+    font-size: 2em;
+    margin-left: 2.5em;
+    margin-top: 1em;
+    box-shadow: 0 0.175em #8DB99D;
 }
 
 #buttons {
@@ -175,18 +174,19 @@ h3 {
 
 #book-consultation-button {
     width: 35%;
-    background-color: #8DB99Dbf; 
+    background-color: #8DB99D; 
     border: none;
-    border-radius: 10px;
+    border-radius: 0.5em;
     color: #493548;
-    padding: 15px 32px;
+    padding: 0.5em 0.75em;
     text-align: center;
     text-decoration: none;
     display: block;
-    font-size: 50px;
-    margin-left: 100px ;
-    margin-top: 100px;
-    box-shadow: 0 9px #493548;
+    float: none;
+    font-size: 2em;
+    margin-left: 2.5em;
+    margin-top: 1em;
+    box-shadow: 0 0.175em #493548;
 
 }
 
@@ -196,15 +196,15 @@ h3 {
     
     background:url("../images/pexels-karolina-grabowska-4210656.jpg") no-repeat center center;
     zoom: 125%;
-    height: 750px;
+    height: 25em;
     
 }
 
 #h2aboutus {
     font-family: 'roboto-condensed', Sans-Serif;
     font-size: 175%;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     color:#ffffff;   
     background-color: #493548;
     text-align: center; 
@@ -229,7 +229,7 @@ h3 {
 #address {
     color: #ffffff;
     font-family: 'roboto-condensed', Sans-Serif;
-    padding: 30px;
+    padding: 1em;
     text-size-adjust: 150%; 
 }
 
@@ -240,7 +240,7 @@ h3 {
     color: #ffffff;
     bottom: 0;
     float: left;
-    padding-left: 20px;
+    padding-left: 0.25em;
 }
 
 .opening-hours ul {
@@ -250,23 +250,24 @@ h3 {
 
 #contact-details {
     float:right;
-    padding-right: 10px;
     box-sizing: border-box;
+    margin-right: 0.5em;
   }
 
-footer { 
-    height: 40px;
-    background-color: #8DB99D;
-    box-sizing: border-box;
-   
-}
 
 /* non-fixed footer for social media links */
+footer { 
+    height: 1em;
+    background-color: #8DB99D;
+    box-sizing: border-box;
+}
+
+
 .social-networks{
-    height: 50px;
-    padding-top: 25px;
+    height: 2em;
+    padding-top: 0.5em;
     text-align: center;
-    letter-spacing: 10px;
+    letter-spacing: 0.5em;
     background-color: #8DB99D;
 }
 
@@ -283,10 +284,11 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 99%;
+    width: 100%;
     background-color: #493548;
     color: white;
     text-align: center;
+    box-sizing: border-box;
   }
 
   .days {
@@ -301,36 +303,33 @@ footer {
     font-size: 110%;
   }
 
-  
-
-
 /* prescription order form*/
 
 #prescription-form-section {
-    Width: 450px;
-    height: 700px;
-    padding: 25px;
+    width: 17.5em;
+    height: 27.5em;
+    padding: 1em;
     color:#8DB99D;
     background-color: #493548BF;
-    top: 30px;
-    left: 100px;
+    top: 1.5em;
+    left: 5em;
     position: absolute;
 
 }
 
 .order-prescription-form > h2 {
     color:#8DB99D;
-    margin-bottom: 20px;
+    margin-bottom: 1em;
 }
 
 .text-input {
     background: transparent;
     color: #fafafa;
     width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
+    height: 1.75em;
+    margin: 0.25em 0 1em 0;
+    border: 0.1em solid #fafafa;
+    border-radius: 0.1em;
 }
 
 .text-input:hover {
@@ -342,17 +341,16 @@ ul {
 }
 
 .submit-button {
-    
-    padding: 10px 20px 10px 20px;
+    padding: 0.25em 0.5em 0.25em 0.5em;
     text-align: center;
     font-size: 175%;
     background-color: #8DB99D;
     color: #493548;
     float: right;
     border: solid;
-    border-radius: 15px;
-    box-shadow: 0 9px #493548;
-    margin-top: -60px;
+    border-radius: 0.5em;
+    box-shadow: 0 0.25em #493548;
+    margin-top: -1.1em;
 }
 
 .submit-button:active {
@@ -371,28 +369,26 @@ ul {
 /* book consultation input form */
 
 #book-consultation-section {
-    
-    width: 400px;
-    height: 625px;
-    padding: 20px;
+    width: 15em;
+    height: 25em;
+    padding: 1em;
     color:#8DB99D;
     background-color: #493548BF;
-    top: 100px;
-    right: 200px;
+    top: 2.5em;
+    right: 5em;
     position: absolute;
 }
 
 #book-button {
     float: right;
-    padding: 10px 20px 10px 20px;
-    margin-top: -10px
+    padding: 0.25em 0.5em 0.25em 0.5em;
+    margin-top: -0.1em
 }
 
 .checkbox ul, #checkbox1, #checkbox2, #checkbox3, #checkbox4, #checkbox5, #checkbox6  {
     display: inline-flex;
     width: 80%;   
 }
-
 
 
 /* Media queries */
@@ -411,6 +407,8 @@ ul {
     #blurb1 {
         font-size: 75%;
     }
+
+    
 }
 
 
@@ -478,7 +476,7 @@ ul {
     }
 
     .footer {
-        font-size: 15px;
+        font-size: 60%;
     }
 
     #landing-image {
@@ -487,9 +485,12 @@ ul {
         background:url("../images/pexels-anna-shvets-3683102.jpg") no-repeat center center; 
     }
 
-
     .opening-hours {
         display: none;
+    }
+
+    #contact-details {
+        float:left;
     }
 
     #buttons {
@@ -504,7 +505,6 @@ ul {
     #order-scripts-button {
         font-size: 250%;
         width: 50%;
-       
     }
 
     #book-consultation-button {
@@ -579,7 +579,7 @@ ul {
         padding-top: 100px;
         padding-bottom: 15px;
         padding-left: 7.5%;
-        font-size: 60%;
+        font-size: 80%;
         flex-direction: column;
         display: flex;
     }
@@ -617,15 +617,13 @@ ul {
     }
 
     .footer {
-        font-size: 12.5px;
+        font-size: 50%;
     }
 
     .opening-hours {
         display: none;
     }
     
-    
-
     #logo {
         float: left;
         font-size: 200%;
@@ -676,6 +674,10 @@ ul {
         height: 250px;
         font-size: 60%; 
         width: 80%;
+    }
+
+    #contact-details {
+        float:left;
     }
 
 }

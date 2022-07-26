@@ -443,7 +443,7 @@ ul {
     }
 
     h3 {
-       font-size: 100%;
+       font-size: 1em;
     }
     
     #blurb1 {
@@ -472,13 +472,15 @@ ul {
 
     #menu {
         height: 2em;
-        padding-top: 6.5em;
+        padding-top: 7.5em;
         padding-bottom: 1em;
-        font-size: 60%;
+        font-size: 1em;
+        display: flex;
+        flex-direction: column-reverse;  
     }
 
     .footer {
-        font-size: 60%;
+        font-size: 40%;
         max-width: 768px;
         min-width: 481px;
         
@@ -576,12 +578,12 @@ ul {
         padding-top: 100px;
         padding-bottom: 15px;
         font-size: 80%;
-        flex-direction: column;
         display: flex;
+        flex-direction: column-reverse;
     }
 
     h3 {
-        font-size: 20px;
+        font-size: 1em;
     }
 
     #landing-image {
@@ -614,17 +616,16 @@ ul {
     }
 
     .footer {
-        font-size: 37.5%;
+        font-size: 35%;
         max-width: 480px;
     }
 
 
     #logo {
         float: left;
-        font-size: 2.5em;
+        font-size: 175%;
         padding-top: 0.5em;
         padding-bottom: 0.5em;
-        padding-left: 30px;
         color:#8DB99D;  
     }
 

@@ -156,7 +156,7 @@ h3 {
     float: none;
     font-size: 2em;
     margin-left: 2.5em;
-    margin-top: 1em;
+    margin-top: 2.5em;
     box-shadow: 0 0.175em #8DB99D;
 }
 
@@ -292,13 +292,13 @@ footer {
 
   .days {
     color:#8DB99D;
-    display: inline-flex;
+    display: inline;
     font-size: 110%;
   }
 
   .TF {
     color:#8DB99D;
-    display: inline-flex;
+    display: inline;
     font-size: 110%;
   }
 
@@ -401,6 +401,7 @@ ul {
         padding-top: 4.5em;
         padding-bottom: 1em;
         padding-left: 1em;
+
     }
 
     #blurb1 {
@@ -412,9 +413,6 @@ ul {
         max-width: 100%; 
     }
  
-
-
-
 }
 
 
@@ -426,8 +424,8 @@ ul {
         height: 2em;
         padding-top: 4.5em;
         padding-bottom: 1em;
-        padding-right: 7.5em;
         font-size: 85%;
+        
     }
 
 
@@ -436,11 +434,11 @@ ul {
     }
 
     #order-scripts-button {
-        font-size: 125%;
+        font-size: 2em;
     }
 
     #book-consultation-button {
-        font-size: 125%
+        font-size: 2em;
     }
 
     h3 {
@@ -456,15 +454,14 @@ ul {
    .footer {
         overflow-x: hidden;
         max-width: 1024px;
-        min-width: none;
+        min-width: 769px;
         font-size: 75%;
+        
     }
-
-
 
    #contact-details {
         float: right;
-}
+    }
 }
 
 
@@ -476,27 +473,20 @@ ul {
         height: 2em;
         padding-top: 6.5em;
         padding-bottom: 1em;
-        padding-left: 1em;
         font-size: 60%;
     }
 
     .footer {
         font-size: 60%;
-        width: 95em;
+        max-width: 768px;
+        min-width: 481px;
+        
     }
 
     #landing-image {
         width: 100%;
         zoom: 120%;
         background:url("../images/pexels-anna-shvets-3683102.jpg") no-repeat center center; 
-    }
-
-    .opening-hours {
-        display: none;
-    }
-
-    #contact-details {
-        float:left;
     }
 
     #buttons {
@@ -509,12 +499,12 @@ ul {
     }
 
     #order-scripts-button {
-        font-size: 250%;
+        font-size: 5em;
         width: 50%;
     }
 
     #book-consultation-button {
-        font-size: 250%;
+        font-size: 5em;
         width: 50%;
     }
     
@@ -584,7 +574,7 @@ ul {
         height: 15%;
         padding-top: 100px;
         padding-bottom: 15px;
-        padding-left: 7.5%;
+       
         font-size: 80%;
         flex-direction: column;
         display: flex;
@@ -600,17 +590,15 @@ ul {
     }
 
     #order-scripts-button {
-        font-size: 20px;
+        font-size: 2.5em;
         width: 70%;
-        margin-left: 10px;
-        margin-top: 100px;
+        align-items: center;
     }
 
     #book-consultation-button {
-        font-size: 20px;
+        font-size: 2.5em;
         width: 70%;
-        margin-left: 10px;
-        margin-top: 100px;
+        align-items: center;
     }
 
     #buttons {
@@ -623,18 +611,16 @@ ul {
     }
 
     .footer {
-        font-size: 50%;
+        font-size: 40%;
+        max-width: 480px;
     }
 
-    .opening-hours {
-        display: none;
-    }
-    
+
     #logo {
         float: left;
-        font-size: 200%;
-        padding-top: 20px;
-        padding-bottom: 10px;
+        font-size: 2.5em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
         padding-left: 30px;
         color:#8DB99D;  
     }
@@ -682,9 +668,7 @@ ul {
         width: 80%;
     }
 
-    #contact-details {
-        float:left;
-    }
+    
 
 }
 

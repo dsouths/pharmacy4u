@@ -12,6 +12,7 @@ body {
     Font-Family: 'Roboto Condensed', Sans-Serif;
     Font-Size: 1.5em;  
     color: #3a3a3a;
+    overflow-y: hidden;
 }
 
 /*used coloors.co to get color palette to make site more appealing to user*/
@@ -591,6 +592,8 @@ ul {
         background:url("../images/pexels-anna-shvets-3683102.jpg") no-repeat center center;
     }
 
+    
+
     #order-scripts-button {
         font-size: 2.5em;
         height: 2.5em;
@@ -623,7 +626,7 @@ ul {
 
     #logo {
         float: left;
-        font-size: 175%;
+        font-size: 225%;
         padding-top: 0.5em;
         padding-bottom: 0.5em;
         color:#8DB99D;  

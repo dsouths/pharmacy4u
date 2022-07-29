@@ -426,6 +426,10 @@ ul {
         font-size: 75%;
         max-width: 100%; 
     }
+
+    footer { 
+        height: 2em;
+    }
  
 }
 
@@ -467,50 +471,17 @@ ul {
         overflow-x: hidden;
         max-width: 1024px;
         min-width: 769px;
-        font-size: 75%;
-        
+        font-size: 75%;   
+    }
+
+    footer { 
+        height: 2em;
     }
 
    #contact-details {
         float: right;
     }
 
-    #landing-image {
-        width: 100%;
-        height:38.5em;
-        zoom: 120%;
-        background:url("../images/pexels-anna-shvets-3683102.jpg") no-repeat center center; 
-    }
-
-    #landing-image-outer {
-        height:38.5em;
-       
-      }
-    
-    #landing-image {
-        height:38.5em;
-       
-    }
-    
-    #prescriptions-background-outer {
-        height:38.5em;
-       
-    }
-    
-    #prescriptions-background {
-        height:38.5em;
-    
-    }
-    
-    #book-consultation-outer {
-        height:38.5em;
-      
-    }
-    
-    #book-consultation-background {
-        height:38.5em;
-        
-    }
 
     
 }

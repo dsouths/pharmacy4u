@@ -178,18 +178,18 @@ I found the following tutorial helpful (https://www.simplilearn.com/tutorials/gi
 
 
 <h3>Credits</h3>
-<li>Code Institute - giving me the knowledge & skills to develop this project</li>
-<li>W3 Schools - many times throughout the project I had an issue that I was able to address by using this invaluable source of information</li>
-<li>Love Running Walkthrough Project - I found this extremely useful in learning coding techniques & used this as a basis to build on for this project</li>
-<li>Stack Overflow - another extremely useful resource I used to rectify issues with my code throughout the project</li>
+<li><b>Code Institute - </b>giving me the knowledge & skills to develop this project</li>
+<li><b>W3 Schools - </b>many times throughout the project I had an issue that I was able to address by using this invaluable source of information</li>
+<li><b>Love Running Walkthrough Project - </b>I found this extremely useful in learning coding techniques & used this as a basis to build on for this project</li>
+<li><b>Stack Overflow - </b>another extremely useful resource I used to rectify issues with my code throughout the project</li>
 	
 <h3>Acknowledgements</h3>
 
-<li>martina_mentor - my mentor Martina who was always on hand to answer any questions I had</li>
-<li>Mateusz Smalarz - helped me with a bug issue via slack</li>
-<li>Alan_5P - helped me with a bug issue via slack</li>
-<li>Code Institute Channel on Slack - i found this a great resource with many knowledgeable people who were more than willing to answer my questions or help out. I found this really motivating & reaffirmed my decision to change career & become a software developer. I really like the camaraderie with the software development community</li> 
-<li>Anna Shvets / Karolina Grabowska / Adam Niescioruk - supplied amazing & interesting high quality background images for the website via pexels.com</li>
+<li><b>martina_mentor - </b>my mentor Martina who was always on hand to answer any questions I had</li>
+<li><b>Mateusz Smalarz - </b>helped me with a bug issue via slack</li>
+<li><b>Alan_5P - </b>helped me with a bug issue via slack</li>
+<li><b>Code Institute Channel on Slack - </b> I found this a great resource with many knowledgeable people who were more than willing to answer my questions or help out. I found this really motivating & reaffirmed my decision to change career & become a software developer. I really like the camaraderie with the software development community</li> 
+<li><b>Anna Shvets / Karolina Grabowska / Adam Niescioruk - </b>supplied amazing & interesting high quality background images for the website via pexels.com</li>
 
 
 

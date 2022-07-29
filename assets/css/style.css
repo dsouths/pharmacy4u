@@ -402,8 +402,10 @@ ul {
         padding-top:4.5em;
         padding-bottom: 1em;
         padding-left: 1em;
+        
     }
 }
+
 
 /*for very large  screens size from 1024px and up to 1200px*/
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
@@ -488,6 +490,7 @@ ul {
         flex-direction: column-reverse;  
     }
 
+
     .footer {
         font-size: 40%;
         max-width: 768px;
@@ -497,34 +500,34 @@ ul {
 
     #landing-image {
         width: 100%;
-        height:37.5em;
+        height:38.5em;
         zoom: 120%;
         background:url("../images/pexels-anna-shvets-3683102.jpg") no-repeat center center; 
     }
 
     #landing-image-outer {
-        height:37.5em;
+        height:38.5em;
       }
     
     #landing-image {
-        height:37.5em;
+        height:38.5em;
     }
     
     #prescriptions-background-outer {
-        height:37.5em;
+        height:38.5em;
     }
     
     #prescriptions-background {
-        height:37.5em;
+        height:38.5em;
         
     }
     
     #book-consultation-outer {
-        height:37.5em;
+        height:38.5em;
     }
     
     #book-consultation-background {
-        height:37.5em;
+        height:38.5em;
     }
 
     #buttons {

@@ -193,7 +193,7 @@ I found the following tutorial helpful (https://www.simplilearn.com/tutorials/gi
 
 
 
-<h3References</h3
+<h3>References</h3
 
 <li>https://fonts.google.com/ - used to find complimentary fonts</li>
 <li>https://coolors.co/ - used to select complimentary color palette</li>

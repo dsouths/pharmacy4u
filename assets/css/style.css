@@ -474,12 +474,51 @@ ul {
    #contact-details {
         float: right;
     }
+
+    #landing-image {
+        width: 100%;
+        height:38.5em;
+        zoom: 120%;
+        background:url("../images/pexels-anna-shvets-3683102.jpg") no-repeat center center; 
+    }
+
+    #landing-image-outer {
+        height:38.5em;
+       
+      }
+    
+    #landing-image {
+        height:38.5em;
+       
+    }
+    
+    #prescriptions-background-outer {
+        height:38.5em;
+       
+    }
+    
+    #prescriptions-background {
+        height:38.5em;
+    
+    }
+    
+    #book-consultation-outer {
+        height:38.5em;
+      
+    }
+    
+    #book-consultation-background {
+        height:38.5em;
+        
+    }
+
+    
 }
 
 
-/* For medium to small screens sizes from 481px to 768px e.g. tablets */
+/* For medium to small screens sizes from 768px to 481px e.g. tablets */
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 481px)  {
 
     #menu {
         height: 2em;
@@ -498,37 +537,7 @@ ul {
         
     }
 
-    #landing-image {
-        width: 100%;
-        height:38.5em;
-        zoom: 120%;
-        background:url("../images/pexels-anna-shvets-3683102.jpg") no-repeat center center; 
-    }
-
-    #landing-image-outer {
-        height:38.5em;
-      }
     
-    #landing-image {
-        height:38.5em;
-    }
-    
-    #prescriptions-background-outer {
-        height:38.5em;
-    }
-    
-    #prescriptions-background {
-        height:38.5em;
-        
-    }
-    
-    #book-consultation-outer {
-        height:38.5em;
-    }
-    
-    #book-consultation-background {
-        height:38.5em;
-    }
 
     #buttons {
         padding-top: 0px;

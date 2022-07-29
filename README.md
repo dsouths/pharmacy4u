@@ -162,6 +162,20 @@ I used web.dev to access the quality & accessibility of the webpage. It gave me 
 	
 I found the following tutorial helpful (https://www.simplilearn.com/tutorials/git-tutorial/merge-conflicts-in-git) & used git pull function to merge version & fix error. 
 
+During the project I discovered the importance of git commit & git push & how I could revert back to previous versions if necessary. This is a practice I plan to use as I develop my skills as a software developer
+	
+<h1>Deployment</h1>
+
+The website was deployed on GitHub by using following steps:
+
+Login into GitHub and locate the repository - pharmacy
+At the top of repository locate the "settings" button and click on it.
+On the left sidebar find locate the "pages" button and click on it.
+Click on the branch dropdown menu and select: master.
+Click save.
+You will receive link to your deployed repository like on the screen below.
+
+
 
 <h3>Technology Used</h3>
 	
@@ -192,9 +206,7 @@ I found the following tutorial helpful (https://www.simplilearn.com/tutorials/gi
 <li><b>Anna Shvets / Karolina Grabowska / Adam Niescioruk - </b>supplied amazing & interesting high quality background images for the website via pexels.com</li>
 
 
-
-<h3>References</h3
-
+<h3>References</h3>
 
 <li>https://coolors.co/ - used to select complimentary color palette</li>
 <li>https://www.pexels.com/ - background images</li>

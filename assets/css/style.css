@@ -505,7 +505,11 @@ ul {
         font-size: 40%;
         max-width: 768px;
         min-width: 481px;
-        
+        height: 2em;  
+    }
+
+    footer { 
+        height: 2em;
     }
 
     

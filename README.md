@@ -195,7 +195,7 @@ I found the following tutorial helpful (https://www.simplilearn.com/tutorials/gi
 
 <h3>References</h3
 
-<li>https://fonts.google.com/ - used to find complimentary fonts</li>
+<li> https://fonts.google.com/ - used to find complimentary fonts </li>
 <li>https://coolors.co/ - used to select complimentary color palette</li>
 <li>https://www.pexels.com/ - background images</li>
 <li>https://www.w3schools.com/ - used to figure out issues with my code</li>

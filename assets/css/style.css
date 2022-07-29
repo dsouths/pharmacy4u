@@ -64,7 +64,7 @@ h3 {
 #menu li {
     float: right;
     list-style-type: none;
-    padding-right: 0.5em;
+    padding-right: 1em;
 }
 
 #menu a {
@@ -425,11 +425,8 @@ ul {
         height: 2em;
         padding-top: 7em;
         padding-bottom: 1em;
-        right: 2em;
         font-size: 75%;
-        
     }
-
 
     #landing-image {
         background-size: cover;

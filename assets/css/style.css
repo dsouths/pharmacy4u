@@ -36,7 +36,7 @@ h3 {
 #logo {
     float: left;
     font-size: 3em;
-    padding-top: 0.25em;
+    padding-top: 0.5em;
     padding-bottom: 0.125em;
     padding-left: 0.25em;
     color:#8DB99D;  
@@ -54,8 +54,8 @@ h3 {
     color:#8DB99D;
     font-size: 100%;
     letter-spacing: 0.25em;
-    padding-top: 1.5em;
-    padding-bottom: 2.5em;
+    padding-top: 2.5em;
+    padding-bottom: 1.5em;
     width: 100%;
     display: inline-block;
    

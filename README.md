@@ -168,12 +168,16 @@ During the project I discovered the importance of git commit & git push & how I 
 
 The website was deployed on GitHub by using following steps:
 
-Login into GitHub and locate the repository - pharmacy
-At the top of repository locate the "settings" button and click on it.
-On the left sidebar find locate the "pages" button and click on it.
-Click on the branch dropdown menu and select: master.
-Click save.
-You will receive link to your deployed repository like on the screen below.
+<ol>
+<li>Login into GitHub and locate the repository - pharmacy</li>
+<li>At the top of repository locate the "settings" button and click on it</li>
+<li>On the left sidebar find locate the "pages" button and click on it</li>
+<li>Click on the branch dropdown menu and select: master</li>
+<li>Click save</li>
+<li>link to your deployed repository on the screen below</li>
+
+![image](https://user-images.githubusercontent.com/105642587/181758753-64a5edf7-7909-4144-906e-0ab3588090be.png)
+
 
 
 

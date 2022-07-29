@@ -17,7 +17,7 @@ The aim of the website is to:
 - have a simple layout the user can easily navigate
 - include links to the pharmacies social media 
 
-I plan to make the site accessable on a range of screen sizes for devices e.g. phone, tablet & PC/Laptop.
+I plan to make the site accessible on a range of screen sizes for devices e.g. phone, tablet & PC/Laptop.
 	
 
 </p>
@@ -45,7 +45,7 @@ I have made this easy to navigate between each page with a simple nav bar of fou
 
 
 
-I have ensured the nav bar that is consistant & intuitive among all of the pages to ensure continuity on the website. I have colored these in contrast to the background to make them stand out. I have also employed a hover function that underlines the link & signifies a call to action for the user.
+I have ensured the nav bar that is consistent & intuitive among all of the pages to ensure continuity on the website. I have colored these in contrast to the background to make them stand out. I have also employed a hover function that underlines the link & signifies a call to action for the user.
 
 </p>
 
@@ -99,7 +99,7 @@ I decided on Roboto Condensed & Sans-Serif as complimentary fonts for the headin
 
 <h3>Footer</h3>
 
-I have created a fixed footer at the bottom of all the pages that informs the user of the pharmacy opening times & contact details, phone & email address. I chose to have this as a fixed footer as I find in many pharmacy website the user has to search for basic information like opening times & contact details. I felt this would positively add to the user experience as the user could easily find the required information.  This could easily be modified to include more information by exanding the footer if required.  I have created a clickable link on the email address wo the user can easily email the pharmacy/website, again improving the user experience by ensuring an intuitive website structure that is easily navigated.
+I have created a fixed footer at the bottom of all the pages that informs the user of the pharmacy opening times & contact details, phone & email address. I chose to have this as a fixed footer as I find in many pharmacy website the user has to search for basic information like opening times & contact details. I felt this would positively add to the user experience as the user could easily find the required information.  This could easily be modified to include more information by expanding the footer if required.  I have created a clickable link on the email address wo the user can easily email the pharmacy/website, again improving the user experience by ensuring an intuitive website structure that is easily navigated.
 
 ![Pharmacy4u - Footer](https://user-images.githubusercontent.com/105642587/181711180-37c0dc48-919a-49b0-9318-99b847408aee.jpg)
 
@@ -129,7 +129,7 @@ I used the W3 Validator to ensure there were no errors in my HTML final code. I 
 
 ![W3 Validator - Prescriptions](https://user-images.githubusercontent.com/105642587/181722979-6227e3d5-edd6-462f-88f1-6fbb552585f5.jpg)
 
-I used the W3C CSS Validation Service to ensure my CSS was error free. I performed whis multiple times as I found it useful in pointing out errors before & after commiting changes on Gitpod.  
+I used the W3C CSS Validation Service to ensure my CSS was error free. I performed this multiple times as I found it useful in pointing out errors before & after commiting changes on Gitpod.  
 
 ![W3 Validator - CSS](https://user-images.githubusercontent.com/105642587/181723005-19afc0ad-01dd-49db-a4bb-f1b3a18bbc52.jpg)
 
@@ -143,6 +143,8 @@ I used web.dev to access the quality & accessibility of the webpage. It gave me 
 
 
 <h1>Bugs</h1>
+
+<b> Background images would not load - </b> after deploying my project to github the background images wouldn't load due to having used absolute file paths. I used "/images/pexels-karolina-grabowska-4210656.jpg" instead of "../images/pexels-karolina-grabowska-4210656.jpg". Using "../" remedied this issue.
 
 <b>Media Query Issue with fixed footer -</b>  The footer width was greater than the rest of the pages when I reduced screen size down to <1024px. After discussing with some colleagues on Slack I discovered my issue was a padding-right issue on the menu. I removed the padding to the right & this resolved the issue 
 
@@ -158,11 +160,31 @@ I used web.dev to access the quality & accessibility of the webpage. It gave me 
 	
 ![image](https://user-images.githubusercontent.com/105642587/181737995-4d110db3-c57c-4a70-9ed8-a87433388f88.png)
 	
-I found the following tutorial helpful (https://www.simplilearn.com/tutorials/git-tutorial/merge-conflicts-in-git). 
+I found the following tutorial helpful (https://www.simplilearn.com/tutorials/git-tutorial/merge-conflicts-in-git) & used git pull function to merge version & fix error. 
+
+During the project I discovered the importance of git commit & git push & how I could revert back to previous versions if necessary. This is a practice I plan to use as I develop my skills as a software developer
+	
+<h1>Deployment</h1>
+
+The website was deployed on GitHub by using following steps:
+
+<ol>
+<li>Login into GitHub and locate the repository - pharmacy</li>
+<li>At the top of repository locate the "settings" button and click on it</li>
+<li>On the left sidebar find locate the "pages" button and click on it</li>
+<li>Click on the branch dropdown menu and select: master</li>
+<li>Click save</li>
+<li>link to your deployed repository on the screen below</li>
+</ol>	
+
+![image](https://user-images.githubusercontent.com/105642587/181758753-64a5edf7-7909-4144-906e-0ab3588090be.png)
+
+
 
 
 <h3>Technology Used</h3>
 	
+
 <li> GitHub - (https://github.com/) (create, hold and deploy repository) </li>
 <li> Chrome DevTools - (https://developer.chrome.com/docs/devtools/) (check & test the site)</li>
 <li> W3C HTML Validator - (https://validator.w3.org/) (validation of HTML code)</li>
@@ -176,27 +198,27 @@ I found the following tutorial helpful (https://www.simplilearn.com/tutorials/gi
 
 
 <h3>Credits</h3>
-Code Institute - giving me the knowledge & skills to develop this project
-W3 Schools - many times throughout the project I had an issue that I was able to address by using this invaluable source of information
-Love Running Walkthrough Project - I found this extremely useful in learning coding techniques & used this as a basis to build on for this project
-Stack Overflow - another extremely useful resource I used to rectify issues with my code throughout the project
+<li><b>Code Institute - </b>giving me the knowledge & skills to develop this project</li>
+<li><b>W3 Schools - </b>many times throughout the project I had an issue that I was able to address by using this invaluable source of information</li>
+<li><b>Love Running Walkthrough Project - </b>I found this extremely useful in learning coding techniques & used this as a basis to build on for this project</li>
+<li><b>Stack Overflow - </b>another extremely useful resource I used to rectify issues with my code throughout the project</li>
 	
 <h3>Acknowledgements</h3>
 
-<li>martina_mentor - my mentor Martina who was always on hand to answer any questions I had</li>
-<li>Mateusz Smalarz - helped me with a bug issue via slack</li>
-<li>Alan_5P - helped me with a bug issue via slack</li>
-<li>Code Institute Channel on Slack - i found this a great resource with many knowledgeable people who were more than willing to answer my questions or help out. I found this really motivating & reaffirmed my decision to change career & become a software developer. I really like the camaraderie with the software development community</li> 
-<li>Anna Shvets / Karolina Grabowska / Adam Niescioruk - supplied amazing & interesting high quality background images for the website via pexels.com</li>
+<li><b>martina_mentor - </b>my mentor Martina who was always on hand to answer any questions I had</li>
+<li><b>Mateusz Smalarz - </b>helped me with a bug issue via slack</li>
+<li><b>Alan_5P - </b>helped me with a bug issue via slack</li>
+<li><b>Code Institute Channel on Slack - </b> I found this a great resource with many knowledgeable people who were more than willing to answer my questions or help out. I found this really motivating & reaffirmed my decision to change career & become a software developer. I really like the camaraderie with the software development community</li> 
+<li><b>Anna Shvets / Karolina Grabowska / Adam Niescioruk - </b>supplied amazing & interesting high quality background images for the website via pexels.com</li>
 
 
+<h3>References</h3>
 
-<h3References</h3
-
-<li>https://fonts.google.com/ - used to find complimentary fonts</li>
 <li>https://coolors.co/ - used to select complimentary color palette</li>
 <li>https://www.pexels.com/ - background images</li>
 <li>https://www.w3schools.com/ - used to figure out issues with my code</li>
+<li>https://fonts.google.com/ - used to find complimentary fonts</li>
+
 																																			
 
 

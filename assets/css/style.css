@@ -65,6 +65,7 @@ h3 {
     float: right;
     list-style-type: none;
     padding-right: 1em;
+    padding-left: 1em;
 }
 
 #menu a {
@@ -393,6 +394,19 @@ ul {
 
 /* Media queries */
 
+
+@media screen and (min-width: 1201px) and (max-width: 1350px) {
+    #menu {
+        width: 75%;
+        height: 2em;
+        padding-top:4.5em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+    }
+
+
+}
+
 /*for very large  screens size from 1024px and up to 1200px*/
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
     
@@ -402,7 +416,6 @@ ul {
         padding-top: 4.5em;
         padding-bottom: 1em;
         padding-left: 1em;
-
     }
 
     #blurb1 {

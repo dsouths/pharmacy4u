@@ -133,18 +133,45 @@ I used the W3C CSS Validation Service to ensure my CSS was error free. I perform
 
 ![W3 Validator - CSS](https://user-images.githubusercontent.com/105642587/181723005-19afc0ad-01dd-49db-a4bb-f1b3a18bbc52.jpg)
 
- 
- 
- 
- 
- 
- 
+I used web.dev to access the quality & accessibility of the webpage. It gave me insight into how the pharmacy4u website & scored highly in Performance, Accessibility, Best Practices & SEO
+
+![web dev - checker](https://user-images.githubusercontent.com/105642587/181729708-d768aec1-586b-4d5b-9e48-55b7eeb5addd.jpg)
+
+![web dev - passed audits](https://user-images.githubusercontent.com/105642587/181729729-de6687ba-ffdb-4bb6-b427-04580c972bac.jpg)
+
+![web dev - accessibility](https://user-images.githubusercontent.com/105642587/181729748-0dcda1c0-9d85-424f-b9ba-6e0b5d6b45b7.jpg)
+
+
+<h1>Bugs</h1>
+
+<b>Media Query Issue with fixed footer -</b>  The footer width was greater than the rest of the pages when I reduced screen size down to <1024px. After discussing with some colleagues on Slack I discovered my issue was a padding-right issue on the menu. I removed the padding to the right & this resolved the issue 
+
+![image](https://user-images.githubusercontent.com/105642587/181733137-15f916ff-f7d1-455f-8556-e120e5d4b1d8.png)
+
+<b>Background Image with zoom function overflowing - </b> I fixed this by creating an outer for each image & used the "overflow: hidden;" attribute.
+
+<b>Book Consultation & Order Prescriptions Button zoomed with the background image - </b> I had created a div without closing tag. Closed div 
+
+<b>Menu items in wrong order when screen size <480px - </b> the Home link was last in the list & I wanted it top of the list. After discussion with my colleagues on slack I added the "flex-direction: column-reverse;" attribute, which fixed the bug
+	
+<b>Git push issue after editing readme file - </b> Error occured when I had edited readme file on github & due to different versions of file on github & gitpod I could not push or commit any changes. 
+	
+![image](https://user-images.githubusercontent.com/105642587/181737995-4d110db3-c57c-4a70-9ed8-a87433388f88.png)
+
+
+
+
+
+
+
+
+
 <h3>Technology Used</h3>
 <li> GitHub - (https://github.com/) (create, hold and deploy repository) </li>
 <li> Chrome DevTools - (https://developer.chrome.com/docs/devtools/) (check & test the site)</li>
 <li> W3C HTML Validator - (https://validator.w3.org/) (validation of HTML code)</li>
 <li> W3C JigSaw Validator - (https://jigsaw.w3.org/css-validator/) (validation of CSS code)</li>
-<li> WebDev Checker - (https://web.dev/measure/) (measure page quality & accessibility)</li>
+<li> WebDev Checker - (https://web.dev/measure/) (measure page quality & accessibility using Lighthouse)</li>
 <li> Am I Responsive - (https://ui.dev/amiresponsive) (website mockup)</li>
 <li> Google Fonts - (https://fonts.google.com/) (fonts)</li>
 <li> Font Awesome - (https://fontawesome.com/) (icons)</li>
@@ -156,7 +183,11 @@ I used the W3C CSS Validation Service to ensure my CSS was error free. I perform
 
 <h4>Thanks</h4>
 
-martina_mentor - my mentor Martina who was always on hand to answer any questions I had 
+martina_mentor - my mentor Martina who was always on hand to answer any questions I had
+Mateusz Smalarz - helped me with a bug issue via slack
+Alan_5P - helped me with a bug issue via slack
+
+ 
 
 
 
@@ -164,6 +195,7 @@ martina_mentor - my mentor Martina who was always on hand to answer any question
 
 https://fonts.google.com/ - used to find complimentary fonts
 https://coolors.co/ - used to select complimentary color palette
+https://www.pexels.com/ - background images
 																																			
 
 

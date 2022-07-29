@@ -175,6 +175,7 @@ The website was deployed on GitHub by using following steps:
 <li>Click on the branch dropdown menu and select: master</li>
 <li>Click save</li>
 <li>link to your deployed repository on the screen below</li>
+</ol>	
 
 ![image](https://user-images.githubusercontent.com/105642587/181758753-64a5edf7-7909-4144-906e-0ab3588090be.png)
 
@@ -183,7 +184,7 @@ The website was deployed on GitHub by using following steps:
 
 <h3>Technology Used</h3>
 	
-<ul>
+
 <li> GitHub - (https://github.com/) (create, hold and deploy repository) </li>
 <li> Chrome DevTools - (https://developer.chrome.com/docs/devtools/) (check & test the site)</li>
 <li> W3C HTML Validator - (https://validator.w3.org/) (validation of HTML code)</li>
@@ -217,7 +218,7 @@ The website was deployed on GitHub by using following steps:
 <li>https://www.pexels.com/ - background images</li>
 <li>https://www.w3schools.com/ - used to figure out issues with my code</li>
 <li>https://fonts.google.com/ - used to find complimentary fonts</li>
-</ul>
+
 																																			
 
 

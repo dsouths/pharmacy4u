@@ -512,7 +512,7 @@ ul {
     }
     
     #prescription-form-section {
-        Width: 300px;
+        width: 300px;
         height: 650px;
         padding: 20px;
         color:#8DB99D;
@@ -625,7 +625,7 @@ ul {
 
     #logo {
         float: left;
-        font-size: 225%;
+        font-size: 200%;
         padding-top: 0.5em;
         padding-bottom: 0.5em;
         color:#8DB99D;  

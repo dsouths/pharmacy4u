@@ -197,11 +197,15 @@ The website was deployed on GitHub by using following steps:
 <li> Evernote - (https://evernote.com/) (notes, screenshots)</li>
 
 
-<h3>Credits</h3>
+<h3>Credits/References</h3>
 <li><b>Code Institute - </b>giving me the knowledge & skills to develop this project</li>
 <li><b>W3 Schools - </b>many times throughout the project I had an issue that I was able to address by using this invaluable source of information</li>
 <li><b>Love Running Walkthrough Project - </b>I found this extremely useful in learning coding techniques & used this as a basis to build on for this project</li>
-<li><b>Stack Overflow - </b>another extremely useful resource I used to rectify issues with my code throughout the project including how to make my submit buttons animated to press in</li>
+<li><b>Stack Overflow - </b>another extremely useful resource I used to rectify many issues with my code throughout the project including how to make my submit buttons animated to "press in" when clicked</li>
+<li>https://coolors.co/ - used to select complimentary color palette</li>
+<li>https://www.pexels.com/ - background images</li>
+<li>https://www.w3schools.com/ - used to figure out issues with my code</li>
+<li>https://fonts.google.com/ - used to find complimentary fonts</li>
 	
 <h3>Acknowledgements</h3>
 
@@ -212,12 +216,9 @@ The website was deployed on GitHub by using following steps:
 <li><b>Anna Shvets / Karolina Grabowska / Adam Niescioruk - </b>supplied amazing & interesting high quality background images for the website via pexels.com</li>
 
 
-<h3>References</h3>
 
-<li>https://coolors.co/ - used to select complimentary color palette</li>
-<li>https://www.pexels.com/ - background images</li>
-<li>https://www.w3schools.com/ - used to figure out issues with my code</li>
-<li>https://fonts.google.com/ - used to find complimentary fonts</li>
+
+
 
 																																			
 

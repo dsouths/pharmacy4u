@@ -17,7 +17,7 @@ The aim of the website is to:
 - have a simple layout the user can easily navigate
 - include links to the pharmacies social media 
 
-I plan to make the site accessable on a range of screen sizes for devices e.g. phone, tablet & PC/Laptop.
+I plan to make the site accessible on a range of screen sizes for devices e.g. phone, tablet & PC/Laptop.
 	
 
 </p>
@@ -45,7 +45,7 @@ I have made this easy to navigate between each page with a simple nav bar of fou
 
 
 
-I have ensured the nav bar that is consistant & intuitive among all of the pages to ensure continuity on the website. I have colored these in contrast to the background to make them stand out. I have also employed a hover function that underlines the link & signifies a call to action for the user.
+I have ensured the nav bar that is consistent & intuitive among all of the pages to ensure continuity on the website. I have colored these in contrast to the background to make them stand out. I have also employed a hover function that underlines the link & signifies a call to action for the user.
 
 </p>
 
@@ -99,7 +99,7 @@ I decided on Roboto Condensed & Sans-Serif as complimentary fonts for the headin
 
 <h3>Footer</h3>
 
-I have created a fixed footer at the bottom of all the pages that informs the user of the pharmacy opening times & contact details, phone & email address. I chose to have this as a fixed footer as I find in many pharmacy website the user has to search for basic information like opening times & contact details. I felt this would positively add to the user experience as the user could easily find the required information.  This could easily be modified to include more information by exanding the footer if required.  I have created a clickable link on the email address wo the user can easily email the pharmacy/website, again improving the user experience by ensuring an intuitive website structure that is easily navigated.
+I have created a fixed footer at the bottom of all the pages that informs the user of the pharmacy opening times & contact details, phone & email address. I chose to have this as a fixed footer as I find in many pharmacy website the user has to search for basic information like opening times & contact details. I felt this would positively add to the user experience as the user could easily find the required information.  This could easily be modified to include more information by expanding the footer if required.  I have created a clickable link on the email address wo the user can easily email the pharmacy/website, again improving the user experience by ensuring an intuitive website structure that is easily navigated.
 
 ![Pharmacy4u - Footer](https://user-images.githubusercontent.com/105642587/181711180-37c0dc48-919a-49b0-9318-99b847408aee.jpg)
 
@@ -129,7 +129,7 @@ I used the W3 Validator to ensure there were no errors in my HTML final code. I 
 
 ![W3 Validator - Prescriptions](https://user-images.githubusercontent.com/105642587/181722979-6227e3d5-edd6-462f-88f1-6fbb552585f5.jpg)
 
-I used the W3C CSS Validation Service to ensure my CSS was error free. I performed whis multiple times as I found it useful in pointing out errors before & after commiting changes on Gitpod.  
+I used the W3C CSS Validation Service to ensure my CSS was error free. I performed this multiple times as I found it useful in pointing out errors before & after commiting changes on Gitpod.  
 
 ![W3 Validator - CSS](https://user-images.githubusercontent.com/105642587/181723005-19afc0ad-01dd-49db-a4bb-f1b3a18bbc52.jpg)
 
@@ -143,6 +143,8 @@ I used web.dev to access the quality & accessibility of the webpage. It gave me 
 
 
 <h1>Bugs</h1>
+
+<b> Background images would not load - </b> after deploying my project to github the background images wouldn't load due to having used absolute file paths. I used "/images/pexels-karolina-grabowska-4210656.jpg" instead of "../images/pexels-karolina-grabowska-4210656.jpg". Using "../" remedied this issue.
 
 <b>Media Query Issue with fixed footer -</b>  The footer width was greater than the rest of the pages when I reduced screen size down to <1024px. After discussing with some colleagues on Slack I discovered my issue was a padding-right issue on the menu. I removed the padding to the right & this resolved the issue 
 
@@ -158,7 +160,7 @@ I used web.dev to access the quality & accessibility of the webpage. It gave me 
 	
 ![image](https://user-images.githubusercontent.com/105642587/181737995-4d110db3-c57c-4a70-9ed8-a87433388f88.png)
 	
-I found the following tutorial helpful (https://www.simplilearn.com/tutorials/git-tutorial/merge-conflicts-in-git). 
+I found the following tutorial helpful (https://www.simplilearn.com/tutorials/git-tutorial/merge-conflicts-in-git) & used git pull function to merge version & fix error. 
 
 
 <h3>Technology Used</h3>

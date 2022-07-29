@@ -80,14 +80,14 @@ h3 {
 /* background images for each page*/
 
 #landing-image-outer {
-    height:36.5em;
+    height:37.5em;
     width: 100%;
     overflow: hidden;
     position: relative;
   }
 
 #landing-image {
-    height:36.5em;
+    height:37.5em;
     width: 100%;
     background:url("../images/adam-niescioruk-hWzrJsS8gwI-unsplash.jpg") no-repeat center center;
     animation-name: zoom;
@@ -96,14 +96,14 @@ h3 {
 }
 
 #prescriptions-background-outer {
-    height:36.5em;
+    height:37.5em;
     width: 100%;
     overflow: hidden;
     position: relative;
   }
 
 #prescriptions-background {
-    height:36.5em;
+    height:37.5em;
     width: 100%;
     background:url("../images/leohoho-DRchVK5apjw-unsplash.jpg") no-repeat center center;
     animation-name: zoom;
@@ -112,14 +112,14 @@ h3 {
 }
 
 #book-consultation-outer {
-    height:36.5em;
+    height:37.5em;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #book-consultation-background {
-    height:36.5em;
+    height:37.5em;
     width: 100%;
     background:url("../images/towfiqu-barbhuiya-hn2hQoALBCk-unsplash.jpg") no-repeat center center;
     animation-name: zoom;
@@ -403,8 +403,6 @@ ul {
         padding-bottom: 1em;
         padding-left: 1em;
     }
-
-
 }
 
 /*for very large  screens size from 1024px and up to 1200px*/

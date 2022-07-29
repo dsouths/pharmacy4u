@@ -162,7 +162,9 @@ I used web.dev to access the quality & accessibility of the webpage. It gave me 
 	
 I found the following tutorial helpful (https://www.simplilearn.com/tutorials/git-tutorial/merge-conflicts-in-git) & used git pull function to merge version & fix error. 
 
-During the project I discovered the importance of git commit & git push & how I could revert back to previous versions if necessary. This is a practice I plan to use as I develop my skills as a software developer
+During the project I discovered the importance of git commit & git push & how I could revert back to previous versions if necessary. This is a practice I plan to use as I develop my skills as a software developer.
+
+I have also used a mixture of measurements Px / EM / % in this project & feel it best practice moving forward to use one unit of measurement where possible. I discovered when creating media queries that EM & % is best used for sizing as Px are an absolute unit of measure & not used as best practice in this scenario.
 	
 <h1>Deployment</h1>
 
@@ -178,8 +180,6 @@ The website was deployed on GitHub by using following steps:
 </ol>	
 
 ![image](https://user-images.githubusercontent.com/105642587/181758753-64a5edf7-7909-4144-906e-0ab3588090be.png)
-
-
 
 
 <h3>Technology Used</h3>
@@ -201,7 +201,7 @@ The website was deployed on GitHub by using following steps:
 <li><b>Code Institute - </b>giving me the knowledge & skills to develop this project</li>
 <li><b>W3 Schools - </b>many times throughout the project I had an issue that I was able to address by using this invaluable source of information</li>
 <li><b>Love Running Walkthrough Project - </b>I found this extremely useful in learning coding techniques & used this as a basis to build on for this project</li>
-<li><b>Stack Overflow - </b>another extremely useful resource I used to rectify issues with my code throughout the project</li>
+<li><b>Stack Overflow - </b>another extremely useful resource I used to rectify issues with my code throughout the project including how to make my submit buttons animated to press in</li>
 	
 <h3>Acknowledgements</h3>
 

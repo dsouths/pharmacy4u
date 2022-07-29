@@ -157,16 +157,12 @@ I used web.dev to access the quality & accessibility of the webpage. It gave me 
 <b>Git push issue after editing readme file - </b> Error occured when I had edited readme file on github & due to different versions of file on github & gitpod I could not push or commit any changes. 
 	
 ![image](https://user-images.githubusercontent.com/105642587/181737995-4d110db3-c57c-4a70-9ed8-a87433388f88.png)
-
-
-
-
-
-
-
+	
+I found the following tutorial helpful (https://www.simplilearn.com/tutorials/git-tutorial/merge-conflicts-in-git). 
 
 
 <h3>Technology Used</h3>
+	
 <li> GitHub - (https://github.com/) (create, hold and deploy repository) </li>
 <li> Chrome DevTools - (https://developer.chrome.com/docs/devtools/) (check & test the site)</li>
 <li> W3C HTML Validator - (https://validator.w3.org/) (validation of HTML code)</li>
@@ -179,23 +175,28 @@ I used web.dev to access the quality & accessibility of the webpage. It gave me 
 <li> Evernote - (https://evernote.com/) (notes, screenshots)</li>
 
 
+<h3>Credits</h3>
+Code Institute - giving me the knowledge & skills to develop this project
+W3 Schools - many times throughout the project I had an issue that I was able to address by using this invaluable source of information
+Love Running Walkthrough Project - I found this extremely useful in learning coding techniques & used this as a basis to build on for this project
+Stack Overflow - another extremely useful resource I used to rectify issues with my code throughout the project
+	
+<h3>Acknowledgements</h3>
+
+<li>martina_mentor - my mentor Martina who was always on hand to answer any questions I had</li>
+<li>Mateusz Smalarz - helped me with a bug issue via slack</li>
+<li>Alan_5P - helped me with a bug issue via slack</li>
+<li>Code Institute Channel on Slack - i found this a great resource with many knowledgeable people who were more than willing to answer my questions or help out. I found this really motivating & reaffirmed my decision to change career & become a software developer. I really like the camaraderie with the software development community</li> 
+<li>Anna Shvets / Karolina Grabowska / Adam Niescioruk - supplied amazing & interesting high quality background images for the website via pexels.com</li>
 
 
-<h4>Thanks</h4>
 
-martina_mentor - my mentor Martina who was always on hand to answer any questions I had
-Mateusz Smalarz - helped me with a bug issue via slack
-Alan_5P - helped me with a bug issue via slack
+<h3References</h3
 
- 
-
-
-
-<h4>References</h4>
-
-https://fonts.google.com/ - used to find complimentary fonts
-https://coolors.co/ - used to select complimentary color palette
-https://www.pexels.com/ - background images
+<li>https://fonts.google.com/ - used to find complimentary fonts</li>
+<li>https://coolors.co/ - used to select complimentary color palette</li>
+<li>https://www.pexels.com/ - background images</li>
+<li>https://www.w3schools.com/ - used to figure out issues with my code</li>
 																																			
 
 

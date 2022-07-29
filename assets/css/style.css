@@ -266,7 +266,7 @@ footer {
 
 
 .social-networks{
-    height: 2em;
+    height: 0.75em;
     padding-top: 0.5em;
     text-align: center;
     letter-spacing: 0.5em;
@@ -278,7 +278,7 @@ footer {
 }
 
 .social-networks i{
-    font-size: 120%;
+    font-size: 140%;
     color: #3a3a3a;
 }
 

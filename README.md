@@ -178,10 +178,10 @@ I found the following tutorial helpful (https://www.simplilearn.com/tutorials/gi
 
 
 <h3>Credits</h3>
-Code Institute - giving me the knowledge & skills to develop this project
-W3 Schools - many times throughout the project I had an issue that I was able to address by using this invaluable source of information
-Love Running Walkthrough Project - I found this extremely useful in learning coding techniques & used this as a basis to build on for this project
-Stack Overflow - another extremely useful resource I used to rectify issues with my code throughout the project
+<li>Code Institute - giving me the knowledge & skills to develop this project</li>
+<li>W3 Schools - many times throughout the project I had an issue that I was able to address by using this invaluable source of information</li>
+<li>Love Running Walkthrough Project - I found this extremely useful in learning coding techniques & used this as a basis to build on for this project</li>
+<li>Stack Overflow - another extremely useful resource I used to rectify issues with my code throughout the project</li>
 	
 <h3>Acknowledgements</h3>
 

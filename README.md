@@ -183,7 +183,7 @@ The website was deployed on GitHub by using following steps:
 
 <h3>Technology Used</h3>
 	
-<ol>
+<ul>
 <li> GitHub - (https://github.com/) (create, hold and deploy repository) </li>
 <li> Chrome DevTools - (https://developer.chrome.com/docs/devtools/) (check & test the site)</li>
 <li> W3C HTML Validator - (https://validator.w3.org/) (validation of HTML code)</li>

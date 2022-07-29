@@ -80,14 +80,14 @@ h3 {
 /* background images for each page*/
 
 #landing-image-outer {
-    height:37.5em;
+    height:36.5em;
     width: 100%;
     overflow: hidden;
     position: relative;
   }
 
 #landing-image {
-    height:37.5em;
+    height:36.5em;
     width: 100%;
     background:url("../images/adam-niescioruk-hWzrJsS8gwI-unsplash.jpg") no-repeat center center;
     animation-name: zoom;
@@ -96,14 +96,14 @@ h3 {
 }
 
 #prescriptions-background-outer {
-    height:37.5em;
+    height:36.5em;
     width: 100%;
     overflow: hidden;
     position: relative;
   }
 
 #prescriptions-background {
-    height:37.5em;
+    height:36.5em;
     width: 100%;
     background:url("../images/leohoho-DRchVK5apjw-unsplash.jpg") no-repeat center center;
     animation-name: zoom;
@@ -112,14 +112,14 @@ h3 {
 }
 
 #book-consultation-outer {
-    height:37.5em;
+    height:36.5em;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #book-consultation-background {
-    height:37.5em;
+    height:36.5em;
     width: 100%;
     background:url("../images/towfiqu-barbhuiya-hn2hQoALBCk-unsplash.jpg") no-repeat center center;
     animation-name: zoom;
@@ -394,7 +394,7 @@ ul {
 
 /* Media queries */
 
-
+/*fix issue with menu items appearing behind logo*/
 @media screen and (min-width: 1201px) and (max-width: 1350px) {
     #menu {
         width: 75%;
@@ -497,8 +497,34 @@ ul {
 
     #landing-image {
         width: 100%;
+        height:37.5em;
         zoom: 120%;
         background:url("../images/pexels-anna-shvets-3683102.jpg") no-repeat center center; 
+    }
+
+    #landing-image-outer {
+        height:37.5em;
+      }
+    
+    #landing-image {
+        height:37.5em;
+    }
+    
+    #prescriptions-background-outer {
+        height:37.5em;
+    }
+    
+    #prescriptions-background {
+        height:37.5em;
+        
+    }
+    
+    #book-consultation-outer {
+        height:37.5em;
+    }
+    
+    #book-consultation-background {
+        height:37.5em;
     }
 
     #buttons {

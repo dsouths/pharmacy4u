@@ -266,8 +266,9 @@ footer {
 
 
 .social-networks{
-    height: 0.75em;
-    padding-top: 0.5em;
+    height: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
     text-align: center;
     letter-spacing: 0.5em;
     background-color: #8DB99D;
@@ -505,11 +506,11 @@ ul {
         font-size: 40%;
         max-width: 768px;
         min-width: 481px;
-        height: 2em;  
+        height: 3em;  
     }
 
     footer { 
-        height: 3em;
+        height: 2em;
     }
 
     #buttons {

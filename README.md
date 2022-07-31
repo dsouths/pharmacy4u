@@ -209,10 +209,15 @@ The website was deployed on GitHub by using following steps:
 <h3>Acknowledgements</h3>
 
 <li><b>martina_mentor - </b>my mentor Martina who was always on hand to answer any questions</li>
-<li><b>Code Institute Channel on Slack - </b> I found this a great resource with many knowledgeable people who were more than willing to answer my questions or help out. I found this really motivating & reaffirmed my decision to change career & become a software developer. I really like the camaraderie with the software development community. Thanks to Mateusz Smalarz & Alan_5P for helping me with bug issues</li> 
+<li><b>Code Institute Channel on Slack - </b> I found this a great resource with many knowledgeable people who were more than willing to answer my questions or help out. I found this really motivating & reaffirmed my decision to change career & become a software developer. I really like the camaraderie with the software development community. Thanks to Mateusz Smalarz & Alan_5P for helping me with some bug issues</li> 
 <li><b>Anna Shvets / Karolina Grabowska / Adam Niescioruk - </b>supplied amazing & interesting high quality background images for the website via pexels.com</li>
 
-
+<hr>
+I found this project both challenging & rewarding & hope it gives you an insight into the new skills I have developed in HTML & CSS while completing the full stack development course through Code Institute.
+	
+Thanks
+	
+daves
 
 
 

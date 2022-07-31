@@ -256,6 +256,29 @@ h3 {
     margin-right: 0.5em;
   }
 
+  .footer {
+    position: fixed;
+    height: 1.5em;
+    bottom: 0;
+    width: 100%;
+    background-color: #493548;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .days {
+    color:#8DB99D;
+    display: inline;
+    font-size: 110%;
+  }
+
+  .TF {
+    color:#8DB99D;
+    display: inline;
+    font-size: 110%;
+  }
+
 
 /* non-fixed footer for social media links */
 footer { 
@@ -282,28 +305,6 @@ footer {
     font-size: 140%;
     color: #3a3a3a;
 }
-
-.footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #493548;
-    color: white;
-    text-align: center;
-    box-sizing: border-box;
-  }
-
-  .days {
-    color:#8DB99D;
-    display: inline;
-    font-size: 110%;
-  }
-
-  .TF {
-    color:#8DB99D;
-    display: inline;
-    font-size: 110%;
-  }
 
 /* prescription order form*/
 
@@ -482,9 +483,6 @@ ul {
    #contact-details {
         float: right;
     }
-
-
-    
 }
 
 
@@ -503,14 +501,14 @@ ul {
 
 
     .footer {
-        font-size: 40%;
+        font-size: 50%;
         max-width: 768px;
         min-width: 481px;
         height: 3em;  
     }
 
     footer { 
-        height: 2em;
+        height: 3em;
     }
 
     #buttons {

@@ -222,7 +222,6 @@ h3 {
     padding-top: 10%;
     text-align: justify;
     color:#493548;
-    display: inline-block;
     float: right;
     
 }
@@ -258,7 +257,8 @@ h3 {
 
   .footer {
     position: fixed;
-    height: 1.5em;
+    padding-top:0.25em;
+    padding-bottom: 0.25em;
     bottom: 0;
     width: 100%;
     background-color: #493548;
@@ -282,16 +282,15 @@ h3 {
 
 /* non-fixed footer for social media links */
 footer { 
-    height: 1em;
+    padding-top: 0.25em;
     background-color: #8DB99D;
     box-sizing: border-box;
 }
 
 
 .social-networks{
-    height: 1.5em;
-    padding-top: 1em;
-    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 2em;
     text-align: center;
     letter-spacing: 0.5em;
     background-color: #8DB99D;
@@ -404,7 +403,6 @@ ul {
         padding-top:4.5em;
         padding-bottom: 1em;
         padding-left: 1em;
-        
     }
 }
 
@@ -429,9 +427,7 @@ ul {
         max-width: 100%; 
     }
 
-    footer { 
-        height: 2em;
-    }
+    
  
 }
 
@@ -465,7 +461,7 @@ ul {
     
     #blurb1 {
         height: 15em;
-        font-size: 70%; 
+        font-size: 65%; 
         width: 40%;
     }
 
@@ -476,10 +472,7 @@ ul {
         font-size: 75%;   
     }
 
-    footer { 
-        height: 2em;
-    }
-
+    
    #contact-details {
         float: right;
     }
@@ -507,9 +500,6 @@ ul {
         height: 3em;  
     }
 
-    footer { 
-        height: 3em;
-    }
 
     #buttons {
         padding-top: 0px;
@@ -582,7 +572,7 @@ ul {
 
     #blurb1 {
         height: 250px;
-        font-size: 65%; 
+        font-size: 55%; 
         width: 60%;
     }
 
@@ -639,6 +629,11 @@ ul {
         max-width: 480px;
     }
 
+    .social-networks {
+        height: 0.75em;
+        font-size: 75%;
+    }
+
 
     #logo {
         float: left;
@@ -687,7 +682,7 @@ ul {
     
     #blurb1 {
         height: 250px;
-        font-size: 60%; 
+        font-size: 50%; 
         width: 80%;
     }
 
@@ -780,6 +775,10 @@ ul {
         font-size: 100%;
         float: right;
        
+    }
+
+    .social-networks {
+        font-size: 65%;
     }
 }
 

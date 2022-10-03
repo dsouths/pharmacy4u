@@ -217,19 +217,4 @@ I found this project both challenging & rewarding & hope it gives you an insight
 	
 Thanks
 	
-daves
-
-
-
-
-																																			
-
-
-                                                                       
-                                              
-
-
-
-
-
-
+daves     
